@@ -6,8 +6,8 @@ public class LeverController : MonoBehaviour
 {
     [Header("Configurações da Porta")]
     public GameObject doorObject; // O objeto da porta que será aberta
-    public Animator doorAnimator; // O Animator da porta (se houver)
-    public string doorOpenAnimationTrigger = "OpenDoor"; // Nome do trigger no Animator
+    // public Animator doorAnimator; 
+    // public string doorOpenAnimationTrigger = "OpenDoor"; // Nome do trigger no Animator
 
     [Header("Configurações da Câmera")]
     public CinemachineCamera playerFollowVCam; // A VCam que segue o jogador
@@ -15,17 +15,45 @@ public class LeverController : MonoBehaviour
     public float cameraSwitchDuration = 2.0f; // Tempo que a câmera ficará na porta
 
     private bool isLeverActivated = false; // Para evitar ativações múltiplas
+    private bool isPlayerInTrigger = false; // Para verificar se o jogador está na área do trigger
+    private GameManager gameManager; // Referência ao GameManager
+
+    void Start()
+    {
+        // Inicializa o GameManager
+        gameManager = Object.FindFirstObjectByType<GameManager>();
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         // reage apenas se o objeto que entrou no trigger for o jogador
         if (other.CompareTag("Player") && !isLeverActivated) 
         {
-            // Opcional: Aqui você pode adicionar lógica para o jogador interagir com a alavanca
-            // Por exemplo, checar um input key: if (Input.GetKeyDown(KeyCode.E)) { ActivateLever(); }
-            // Por simplicidade, ativaremos ao entrar no trigger.
-            gameObject.GetComponent<SpriteRenderer>().color = Color.green; // Muda a cor da alavanca para indicar que foi ativada
+            Debug.Log("Player entrou na área da alavanca!");
+            gameManager.InteractButtonImage.gameObject.SetActive(true); // Habilita o botão de interação
+            isPlayerInTrigger = true; // Marca que o jogador está na área do trigger        
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        // Verifica se o objeto que saiu do trigger é o jogador
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Player saiu da área da alavanca!");
+            gameManager.InteractButtonImage.gameObject.SetActive(false); // Desabilita o botão de interação
+            isPlayerInTrigger = false; // Marca que o jogador não está mais na área do trigger
+        }
+    }
+
+    void Update()
+    {
+        // Verifica se a alavanca já foi ativada e se o jogador está na área do trigger e se está pressionando a tecla 'E'
+        if (!isLeverActivated && isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
+        {
             ActivateLever();
+            gameObject.GetComponent<SpriteRenderer>().color = Color.green; //Placeholder para indicar que a alavanca foi ativada
+            gameManager.InteractButtonImage.gameObject.SetActive(false); // Desabilita o botão de interação após ativar a alavanca
         }
     }
 
@@ -40,33 +68,28 @@ public class LeverController : MonoBehaviour
 
     IEnumerator OpenDoorAndSwitchCamera()
     {
-        // 1. Ativar a VCam da porta (aumenta a prioridade)
+        // sistema de prioridade de câmeras serve para controlar qual câmera está ativa
         doorFeedbackVCam.Priority = 20; // Maior que a playerFollowVCam (10)
         playerFollowVCam.Priority = 10; // Mantém a prioridade normal do player follow, mas agora ela é menor
 
         // Espera um pequeno tempo para a câmera começar a transição antes de abrir a porta
-        // Isso dá tempo para o Cinemachine Brain começar a agir
-        yield return new WaitForSeconds(0.2f); // Pequeno atraso
+        yield return new WaitForSeconds(0.2f); 
 
-        // 2. Abrir a porta
+        // Abrir a porta
         if (doorObject != null)
         {
-            // Se você tiver um Animator, ative o trigger de animação
-            if (doorAnimator != null)
-            {
-                doorAnimator.SetTrigger(doorOpenAnimationTrigger);
-            }
-            // Se não tiver Animator, você pode simplesmente desativar o objeto da porta
-            // ou mudar o sprite para a porta aberta.
-            // else { doorObject.SetActive(false); }
+            // if (doorAnimator != null)
+            // {
+            //     doorAnimator.SetTrigger(doorOpenAnimationTrigger);
+            // }
+
             yield return new WaitForSeconds(1);
-            Destroy(doorObject); // Exemplo: destrói a porta após abrir
+            Destroy(doorObject); // Placeholder destrói a porta após abrir
         }
 
-        // 3. Esperar o tempo de visualização da porta
+        // Espera o tempo de visualização da porta
         yield return new WaitForSeconds(cameraSwitchDuration);
 
-        // 4. Voltar para a VCam do jogador (diminui a prioridade da VCam da porta)
         doorFeedbackVCam.Priority = 5; // Volta para prioridade menor
         playerFollowVCam.Priority = 10; // Garante que a playerFollowVCam volte a ser a principal
     }
