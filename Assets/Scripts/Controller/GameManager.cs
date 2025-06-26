@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI ghostCountText;
     public TextMeshProUGUI introMessageText; // para a mensagem inicial
+    public GameObject pauseMenu; // Referência ao menu de pausa
 
     [Header("Game Settings")]
     public float totalTimeInMinutes = 10f;
@@ -64,6 +65,21 @@ public class GameManager : MonoBehaviour
         if (gameOver)
         {
             return;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            // Verifica se o jogo está pausado e alterna entre pausar e retomar
+            if (Time.timeScale == 1f)
+            {
+                Time.timeScale = 0f; // Pausa o jogo
+                pauseMenu.SetActive(true); // Ativa o menu de pausa
+            }
+            else
+            {
+                Time.timeScale = 1f; // Retoma o jogo
+                pauseMenu.SetActive(false); // Desativa o menu de pausa
+            }
         }
     }
 
@@ -170,11 +186,13 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Você venceu! Todos os fantasmas foram capturados.");
             // Lógica de vitória
+            SceneManager.LoadScene("GameWinScene"); // Carrega a cena de vitória
         }
         else
         {
             Debug.Log("Tempo esgotado! Você perdeu.");
             // Lógica de derrota
+            SceneManager.LoadScene("GameOverScene"); // Carrega a cena de Game Over
         }
     }
 
