@@ -17,11 +17,13 @@ public class LeverController : MonoBehaviour
     private bool isLeverActivated = false; // Para evitar ativações múltiplas
     private bool isPlayerInTrigger = false; // Para verificar se o jogador está na área do trigger
     private GameManager gameManager; // Referência ao GameManager
+    private DarkRoomTrigger darkRoomTrigger;
 
     void Start()
     {
         // Inicializa o GameManager
         gameManager = Object.FindFirstObjectByType<GameManager>();
+        darkRoomTrigger = Object.FindFirstObjectByType<DarkRoomTrigger>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -72,8 +74,9 @@ public class LeverController : MonoBehaviour
         doorFeedbackVCam.Priority = 20; // Maior que a playerFollowVCam (10)
         playerFollowVCam.Priority = 10; // Mantém a prioridade normal do player follow, mas agora ela é menor
 
+        darkRoomTrigger.globalLight.color = darkRoomTrigger.originalAmbientColor; //restaura a luz original
         // Espera um pequeno tempo para a câmera começar a transição antes de abrir a porta
-        yield return new WaitForSeconds(0.2f); 
+        yield return new WaitForSeconds(0.2f);
 
         // Abrir a porta
         if (doorObject != null)
@@ -92,5 +95,6 @@ public class LeverController : MonoBehaviour
 
         doorFeedbackVCam.Priority = 5; // Volta para prioridade menor
         playerFollowVCam.Priority = 10; // Garante que a playerFollowVCam volte a ser a principal
+        darkRoomTrigger.globalLight.color = darkRoomTrigger.darkAmbientColor; //restaura a escuridão
     }
 }

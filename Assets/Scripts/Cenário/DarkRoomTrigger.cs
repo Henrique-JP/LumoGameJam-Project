@@ -8,7 +8,7 @@ public class DarkRoomTrigger : MonoBehaviour
     public GameObject playerLightObject; // Objeto de luz do jogador (PlayerLight)
     public Color darkAmbientColor = Color.black; // Cor ambiente para a sala escura
 
-    private Color originalAmbientColor; // Para restaurar a cor ambiente original
+    public Color originalAmbientColor; // Para restaurar a cor ambiente original
 
     void Start()
     {
