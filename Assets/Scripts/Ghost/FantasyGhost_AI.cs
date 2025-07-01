@@ -5,7 +5,7 @@ public class FantasyGhost_AI : GhostAI_Base
     [Header("Habilidade Única: Teleporte")]
     [SerializeField] private float teleportInterval = 30f;
     [SerializeField] private Vector2 teleportAreaCenter = Vector2.zero;
-    [SerializeField] private Vector2 teleportAreaSize = new Vector2(40f, 20f);
+    [SerializeField] private Vector2 teleportAreaSize = new (40f, 20f);
 
     private float teleportTimer;
 

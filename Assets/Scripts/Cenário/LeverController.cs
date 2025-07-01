@@ -1,11 +1,12 @@
-using UnityEngine;
 using System.Collections;
-using Unity.Cinemachine; 
+using System.Collections.Generic;
+using Unity.Cinemachine;
+using UnityEngine;
 
 public class LeverController : MonoBehaviour
 {
     [Header("Configurações da Porta")]
-    public GameObject doorObject; // O objeto da porta que será aberta
+    public List<GameObject> doorObjects = new(); // O objeto da porta que será aberta
     // public Animator doorAnimator; 
     // public string doorOpenAnimationTrigger = "OpenDoor"; // Nome do trigger no Animator
 
@@ -19,6 +20,13 @@ public class LeverController : MonoBehaviour
     private GameManager gameManager; // Referência ao GameManager
     private DarkRoomTrigger darkRoomTrigger;
 
+    //------------Adicionado-------------
+    [Header("Ações do Spawner")]
+    [Tooltip("O spawner de fantasmas que esta alavanca vai controlar.")]
+    public GhostSpawner ghostSpawnerToActivate;
+
+    [Tooltip("Quantos fantasmas devem ser criados instantaneamente ao ativar a alavanca.")]
+    public int initialGhostsToSpawn = 3;
     void Start()
     {
         // Inicializa o GameManager
@@ -64,6 +72,16 @@ public class LeverController : MonoBehaviour
         isLeverActivated = true;
         Debug.Log("Alavanca ativada!");
 
+        //---TRECHO ADICIONADO PARA O SPAWNER DE FANTASMAS---
+        if (ghostSpawnerToActivate != null)
+        {
+            //Manda criar os fantasmas iniciais imediatamente
+            ghostSpawnerToActivate.SpawnImmediate(initialGhostsToSpawn);
+
+            //Depois, inicia o spawn continuo
+            ghostSpawnerToActivate.StartSpawning();
+        }
+
         // Inicia a rotina para abrir a porta e mudar a câmera
         StartCoroutine(OpenDoorAndSwitchCamera());
     }
@@ -79,17 +97,24 @@ public class LeverController : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         // Abrir a porta
-        if (doorObject != null)
+        if (doorObjects != null && doorObjects.Count > 0)
         {
+
             // if (doorAnimator != null)
             // {
             //     doorAnimator.SetTrigger(doorOpenAnimationTrigger);
             // }
-
             yield return new WaitForSeconds(1);
-            Destroy(doorObject); // Placeholder destrói a porta após abrir
-        }
 
+            // Passa por cada porta na lista e a destrói
+            foreach (GameObject door in doorObjects)
+            {
+                if (door != null) // Boa prática verificar se a porta não é nula
+                {
+                    Destroy(door);
+                }
+            }
+        }
         // Espera o tempo de visualização da porta
         yield return new WaitForSeconds(cameraSwitchDuration);
 

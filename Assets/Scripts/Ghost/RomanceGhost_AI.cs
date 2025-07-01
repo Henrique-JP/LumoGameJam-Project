@@ -77,7 +77,7 @@ public class RomanceGhost_AI : GhostAI_Base
         if (romanceState == RomanceState.Fast && playerTransform != null)
         {
             Vector2 directionToPlayer = (playerTransform.position - transform.position).normalized;
-            rb.linearVelocity = -directionToPlayer * moveSpeed * fastSpeedMultiplier;
+            rb.linearVelocity = fastSpeedMultiplier * moveSpeed * -directionToPlayer;
         }
         else
         {
