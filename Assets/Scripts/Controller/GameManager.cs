@@ -14,12 +14,13 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI ghostCountText;
     public TextMeshProUGUI introMessageText; // para a mensagem inicial
     public GameObject pauseMenu; // Referência ao menu de pausa
+    public GameObject BookInterface; // Referência à interface do livro
 
     [Header("Game Settings")]
     public float totalTimeInMinutes = 10f;
     public int totalGhostsToCapture = 5;
 
-    [Header("Intro Message Settings")] 
+    [Header("Intro Message Settings")]
     public float introMessageDisplayTime = 3.0f; // Tempo que a mensagem fica totalmente visível
     public float introMessageFadeOutTime = 2.0f; // Tempo para a mensagem sumir gradualmente
 
@@ -67,7 +68,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape)) 
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             // Verifica se o jogo está pausado e alterna entre pausar e retomar
             if (Time.timeScale == 1f)
@@ -80,6 +81,12 @@ public class GameManager : MonoBehaviour
                 Time.timeScale = 1f; // Retoma o jogo
                 pauseMenu.SetActive(false); // Desativa o menu de pausa
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            // Alterna a visibilidade da interface do livro
+            ToggleBookInterface();
         }
     }
 
@@ -200,5 +207,24 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void QuitGame()
+    {
+        Time.timeScale = 1f; // Garante que o tempo está normal antes de sair
+        Application.Quit();
+        Debug.Log("Jogo encerrado.");
+    }
+
+    public void ToggleBookInterface()
+    {
+        if (BookInterface != null)
+        {
+            BookInterface.SetActive(!BookInterface.activeSelf);
+        }
+        else
+        {
+            Debug.LogWarning("BookInterface não está atribuído no GameManager.");
+        }
     }
 }
