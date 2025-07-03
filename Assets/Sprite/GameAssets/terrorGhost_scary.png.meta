@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 3ff899cfbb6ef8f47b0c97e5a13694b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4847417925278533674
+    second: terrorGhost_scary_0
+  - first:
+      213: 8365023525880651854
+    second: terrorGhost_scary_1
+  - first:
+      213: -7126883686140206276
+    second: terrorGhost_scary_2
+  - first:
+      213: -8591363206744141909
+    second: terrorGhost_scary_3
+  - first:
+      213: -8103156291936869882
+    second: terrorGhost_scary_4
+  - first:
+      213: 8346628061298989260
+    second: terrorGhost_scary_5
+  - first:
+      213: 8999793812245362050
+    second: terrorGhost_scary_6
+  - first:
+      213: -8027080106045434404
+    second: terrorGhost_scary_7
+  - first:
+      213: 2342473554608560484
+    second: terrorGhost_scary_8
+  - first:
+      213: 1158480158456557205
+    second: terrorGhost_scary_9
+  - first:
+      213: 1974306140639267054
+    second: terrorGhost_scary_10
+  - first:
+      213: -8204449263208200031
+    second: terrorGhost_scary_11
+  - first:
+      213: -2632042993810691434
+    second: terrorGhost_scary_12
+  - first:
+      213: -7768354954312330568
+    second: terrorGhost_scary_13
+  - first:
+      213: 2450593987370235365
+    second: terrorGhost_scary_14
+  - first:
+      213: 6141014294619307848
+    second: terrorGhost_scary_15
+  - first:
+      213: 3174565182380170538
+    second: terrorGhost_scary_16
+  - first:
+      213: 2083884638483140440
+    second: terrorGhost_scary_17
+  - first:
+      213: 5517829346504925565
+    second: terrorGhost_scary_18
+  - first:
+      213: -3358275438004928607
+    second: terrorGhost_scary_19
+  - first:
+      213: 8275033632589920179
+    second: terrorGhost_scary_20
+  - first:
+      213: -4998643737381908618
+    second: terrorGhost_scary_21
+  - first:
+      213: 9184530666107082582
+    second: terrorGhost_scary_22
+  - first:
+      213: 4845239150930994248
+    second: terrorGhost_scary_23
+  - first:
+      213: -7880737827721207340
+    second: terrorGhost_scary_24
+  - first:
+      213: 738705310032406754
+    second: terrorGhost_scary_25
+  - first:
+      213: -4913708167598696639
+    second: terrorGhost_scary_26
+  - first:
+      213: 1763467990806339519
+    second: terrorGhost_scary_27
+  - first:
+      213: -1718540109039792968
+    second: terrorGhost_scary_28
+  - first:
+      213: -3621985183357134123
+    second: terrorGhost_scary_29
+  - first:
+      213: -6010876174493554707
+    second: terrorGhost_scary_30
+  - first:
+      213: -4050680422516743665
+    second: terrorGhost_scary_31
+  - first:
+      213: -7672450358298710899
+    second: terrorGhost_scary_32
+  - first:
+      213: -1389279628438897112
+    second: terrorGhost_scary_33
+  - first:
+      213: 8332947886938467201
+    second: terrorGhost_scary_34
+  - first:
+      213: 8432192541453096413
+    second: terrorGhost_scary_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrorGhost_scary_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28861a9bec754340800000000000000
+      internalID: 4847417925278533674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 118
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40e6e5b398861470800000000000000
+      internalID: 8365023525880651854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 118
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33261c1c09381d90800000000000000
+      internalID: -7126883686140206276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 118
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf87a5bea855c880800000000000000
+      internalID: -8591363206744141909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 118
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602a1abe84ecb8f80800000000000000
+      internalID: -8103156291936869882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 82
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8980adffd25d370800000000000000
+      internalID: 8346628061298989260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 118
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285b4ae0ac0b5ec70800000000000000
+      internalID: 8999793812245362050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 118
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd59e8f3c251a9090800000000000000
+      internalID: -8027080106045434404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 118
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46990367943228020800000000000000
+      internalID: 2342473554608560484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_9
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 118
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e2424f09fb31010800000000000000
+      internalID: 1158480158456557205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 82
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee80dae79f4266b10800000000000000
+      internalID: 1974306140639267054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 82
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a882c83dd0f32e80800000000000000
+      internalID: -8204449263208200031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 82
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69aab50a7da197bd0800000000000000
+      internalID: -2632042993810691434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 82
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2511bd352413490800000000000000
+      internalID: -7768354954312330568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 46
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e539e96f32420220800000000000000
+      internalID: 2450593987370235365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 82
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f3167e6f3493550800000000000000
+      internalID: 6141014294619307848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 82
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dd71cb6325e0c20800000000000000
+      internalID: 3174565182380170538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 82
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f4eada9027bec10800000000000000
+      internalID: 2083884638483140440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_18
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 82
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71e6a15e84439c40800000000000000
+      internalID: 5517829346504925565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1affbc338420561d0800000000000000
+      internalID: -3358275438004928607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 46
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7beeeee33d6d270800000000000000
+      internalID: 8275033632589920179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 46
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fce9a310041aab0800000000000000
+      internalID: -4998643737381908618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 46
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6579ef5aaf1067f70800000000000000
+      internalID: 9184530666107082582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 46
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ae0b265fbd3340800000000000000
+      internalID: 4845239150930994248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 46
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1a1ba13bef1a290800000000000000
+      internalID: -7880737827721207340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 47
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e82d2ec098604a00800000000000000
+      internalID: 738705310032406754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 47
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147185c94700fcbb0800000000000000
+      internalID: -4913708167598696639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf98cc5bc8197810800000000000000
+      internalID: 1763467990806339519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc0c6440e48628e0800000000000000
+      internalID: -1718540109039792968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da15447aaf1cbdc0800000000000000
+      internalID: -3621985183357134123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 10
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7e37e57f3159ca0800000000000000
+      internalID: -6010876174493554707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_31
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 10
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02a24dfd9719c7c0800000000000000
+      internalID: -4050680422516743665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 10
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c69ccac0bf58590800000000000000
+      internalID: -7672450358298710899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 10
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e7635e98948bce0800000000000000
+      internalID: -1389279628438897112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_34
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 10
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b2fcc04f394a370800000000000000
+      internalID: 8332947886938467201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_scary_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 10
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd59207d07a250570800000000000000
+      internalID: 8432192541453096413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      terrorGhost_scary_0: 4847417925278533674
+      terrorGhost_scary_1: 8365023525880651854
+      terrorGhost_scary_10: 1974306140639267054
+      terrorGhost_scary_11: -8204449263208200031
+      terrorGhost_scary_12: -2632042993810691434
+      terrorGhost_scary_13: -7768354954312330568
+      terrorGhost_scary_14: 2450593987370235365
+      terrorGhost_scary_15: 6141014294619307848
+      terrorGhost_scary_16: 3174565182380170538
+      terrorGhost_scary_17: 2083884638483140440
+      terrorGhost_scary_18: 5517829346504925565
+      terrorGhost_scary_19: -3358275438004928607
+      terrorGhost_scary_2: -7126883686140206276
+      terrorGhost_scary_20: 8275033632589920179
+      terrorGhost_scary_21: -4998643737381908618
+      terrorGhost_scary_22: 9184530666107082582
+      terrorGhost_scary_23: 4845239150930994248
+      terrorGhost_scary_24: -7880737827721207340
+      terrorGhost_scary_25: 738705310032406754
+      terrorGhost_scary_26: -4913708167598696639
+      terrorGhost_scary_27: 1763467990806339519
+      terrorGhost_scary_28: -1718540109039792968
+      terrorGhost_scary_29: -3621985183357134123
+      terrorGhost_scary_3: -8591363206744141909
+      terrorGhost_scary_30: -6010876174493554707
+      terrorGhost_scary_31: -4050680422516743665
+      terrorGhost_scary_32: -7672450358298710899
+      terrorGhost_scary_33: -1389279628438897112
+      terrorGhost_scary_34: 8332947886938467201
+      terrorGhost_scary_35: 8432192541453096413
+      terrorGhost_scary_4: -8103156291936869882
+      terrorGhost_scary_5: 8346628061298989260
+      terrorGhost_scary_6: 8999793812245362050
+      terrorGhost_scary_7: -8027080106045434404
+      terrorGhost_scary_8: 2342473554608560484
+      terrorGhost_scary_9: 1158480158456557205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

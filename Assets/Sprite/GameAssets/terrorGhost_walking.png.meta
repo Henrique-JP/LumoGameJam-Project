@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: df6490b7dea2e9946a519964e1966a05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5645071620128497402
+    second: terrorGhost_walking_0
+  - first:
+      213: -7087516774797717755
+    second: terrorGhost_walking_1
+  - first:
+      213: 4020185569115054641
+    second: terrorGhost_walking_2
+  - first:
+      213: -3093812059928450810
+    second: terrorGhost_walking_3
+  - first:
+      213: -9060255314685378577
+    second: terrorGhost_walking_4
+  - first:
+      213: -2154854996472868146
+    second: terrorGhost_walking_5
+  - first:
+      213: 8205298763131498217
+    second: terrorGhost_walking_6
+  - first:
+      213: -4108670811688298819
+    second: terrorGhost_walking_7
+  - first:
+      213: -1237275422993561762
+    second: terrorGhost_walking_8
+  - first:
+      213: 2742749211588296834
+    second: terrorGhost_walking_9
+  - first:
+      213: 5329584390136626228
+    second: terrorGhost_walking_10
+  - first:
+      213: 4726888585837719049
+    second: terrorGhost_walking_11
+  - first:
+      213: -8279193164862941886
+    second: terrorGhost_walking_12
+  - first:
+      213: 8530973110156287002
+    second: terrorGhost_walking_13
+  - first:
+      213: -1127426669730612385
+    second: terrorGhost_walking_14
+  - first:
+      213: -2353941456623339892
+    second: terrorGhost_walking_15
+  - first:
+      213: 9146140955988228404
+    second: terrorGhost_walking_16
+  - first:
+      213: 2353910078119030071
+    second: terrorGhost_walking_17
+  - first:
+      213: 2118907372019679562
+    second: terrorGhost_walking_18
+  - first:
+      213: -1854416680065302246
+    second: terrorGhost_walking_19
+  - first:
+      213: -8072963285646859507
+    second: terrorGhost_walking_20
+  - first:
+      213: -4233395250710796318
+    second: terrorGhost_walking_21
+  - first:
+      213: 1557133109064941241
+    second: terrorGhost_walking_22
+  - first:
+      213: -733525810736985344
+    second: terrorGhost_walking_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: terrorGhost_walking_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 104
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed569cab2575e40800000000000000
+      internalID: 5645071620128497402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 105
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4f8a6b0514ad90800000000000000
+      internalID: -7087516774797717755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 104
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132214aa9719ac730800000000000000
+      internalID: 4020185569115054641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 103
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609252eb2529015d0800000000000000
+      internalID: -3093812059928450810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef35d96bc1834280800000000000000
+      internalID: -9060255314685378577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 103
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec252c03cca6812e0800000000000000
+      internalID: -2154854996472868146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 73
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eea76460c31fd170800000000000000
+      internalID: 8205298763131498217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 43
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db69d4a5aa11bf6c0800000000000000
+      internalID: -4108670811688298819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 74
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57c523ee8054dee0800000000000000
+      internalID: -1237275422993561762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 73
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28004b050e3301620800000000000000
+      internalID: 2742749211588296834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 73
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c7f86f3cc76f940800000000000000
+      internalID: 5329584390136626228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_11
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 73
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ea4bbef18499140800000000000000
+      internalID: 4726888585837719049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 73
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245908d7ea56a1d80800000000000000
+      internalID: -8279193164862941886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 43
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c564b38da146670800000000000000
+      internalID: 8530973110156287002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_14
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 13
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bb760da639a50f0800000000000000
+      internalID: -1127426669730612385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 43
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8676e787be155fd0800000000000000
+      internalID: -2353941456623339892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 43
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439745bbdbe9dee70800000000000000
+      internalID: 9146140955988228404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 44
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d2f779eb4caa020800000000000000
+      internalID: 2353910078119030071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 43
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a418035470fd76d10800000000000000
+      internalID: 2118907372019679562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110627cad9c346e0800000000000000
+      internalID: -1854416680065302246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 13
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03af320aa217ff80800000000000000
+      internalID: -8072963285646859507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 14
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7ae8fe275ff35c0800000000000000
+      internalID: -4233395250710796318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 15
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beb0d9005c0c9510800000000000000
+      internalID: 1557133109064941241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: terrorGhost_walking_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 14
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b0179592ef1d5f0800000000000000
+      internalID: -733525810736985344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      terrorGhost_walking_0: 5645071620128497402
+      terrorGhost_walking_1: -7087516774797717755
+      terrorGhost_walking_10: 5329584390136626228
+      terrorGhost_walking_11: 4726888585837719049
+      terrorGhost_walking_12: -8279193164862941886
+      terrorGhost_walking_13: 8530973110156287002
+      terrorGhost_walking_14: -1127426669730612385
+      terrorGhost_walking_15: -2353941456623339892
+      terrorGhost_walking_16: 9146140955988228404
+      terrorGhost_walking_17: 2353910078119030071
+      terrorGhost_walking_18: 2118907372019679562
+      terrorGhost_walking_19: -1854416680065302246
+      terrorGhost_walking_2: 4020185569115054641
+      terrorGhost_walking_20: -8072963285646859507
+      terrorGhost_walking_21: -4233395250710796318
+      terrorGhost_walking_22: 1557133109064941241
+      terrorGhost_walking_23: -733525810736985344
+      terrorGhost_walking_3: -3093812059928450810
+      terrorGhost_walking_4: -9060255314685378577
+      terrorGhost_walking_5: -2154854996472868146
+      terrorGhost_walking_6: 8205298763131498217
+      terrorGhost_walking_7: -4108670811688298819
+      terrorGhost_walking_8: -1237275422993561762
+      terrorGhost_walking_9: 2742749211588296834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
