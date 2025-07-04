@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: mesa
+  m_Name: "Corrim\xE3o_2"
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: f33ec32ca0e93d24a9e0bab026bdfd02, type: 3}
+  m_Sprite: {fileID: -600084929623060586, guid: c0fc784d3f3460b4cb34e9e1de196730, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
