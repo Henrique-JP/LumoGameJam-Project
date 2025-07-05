@@ -7,8 +7,7 @@ public class LeverController : MonoBehaviour
 {
     [Header("Configurações da Porta")]
     public List<GameObject> doorObjects = new(); // O objeto da porta que será aberta
-    // public Animator doorAnimator; 
-    // public string doorOpenAnimationTrigger = "OpenDoor"; // Nome do trigger no Animator
+    public Sprite LeverDesableSprite;
 
     [Header("Configurações da Câmera")]
     public CinemachineCamera playerFollowVCam; // A VCam que segue o jogador
@@ -61,8 +60,9 @@ public class LeverController : MonoBehaviour
         // Verifica se a alavanca já foi ativada e se o jogador está na área do trigger e se está pressionando a tecla 'E'
         if (!isLeverActivated && isPlayerInTrigger && Input.GetKeyDown(KeyCode.E))
         {
+            gameObject.GetComponent<SpriteRenderer>().sprite = LeverDesableSprite;
             ActivateLever();
-            gameObject.GetComponent<SpriteRenderer>().color = Color.green; //Placeholder para indicar que a alavanca foi ativada
+            //gameObject.GetComponent<SpriteRenderer>().color = Color.green; //Placeholder para indicar que a alavanca foi ativada
             gameManager.InteractButtonImage.gameObject.SetActive(false); // Desabilita o botão de interação após ativar a alavanca
         }
     }
