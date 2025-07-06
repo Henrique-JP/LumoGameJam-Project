@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 0431037703ac02145938ba172b322994
+guid: 6096db64d5ae3fd4f972fca0bf8cced2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5944176217859096227
-    second: fantasyGhost_walking_0
+      213: -2062396134649334655
+    second: romanceGhost_walkingAngry_0
   - first:
-      213: -761210059912656873
-    second: fantasyGhost_walking_1
+      213: 5782848281213860686
+    second: romanceGhost_walkingAngry_1
   - first:
-      213: 7785498504016053116
-    second: fantasyGhost_walking_2
+      213: 8202374747887231878
+    second: romanceGhost_walkingAngry_2
   - first:
-      213: -3413505832796743321
-    second: fantasyGhost_walking_3
+      213: 87929368506446847
+    second: romanceGhost_walkingAngry_3
   - first:
-      213: 7350648404064711338
-    second: fantasyGhost_walking_4
+      213: -7323185669815372829
+    second: romanceGhost_walkingAngry_4
   - first:
-      213: -3301351636493226501
-    second: fantasyGhost_walking_5
+      213: 3976964328763706028
+    second: romanceGhost_walkingAngry_5
   - first:
-      213: 4297540225451944665
-    second: fantasyGhost_walking_6
+      213: 2601622988784078678
+    second: romanceGhost_walkingAngry_6
   - first:
-      213: 5856040582165841786
-    second: fantasyGhost_walking_7
+      213: -1691862510666980456
+    second: romanceGhost_walkingAngry_7
   - first:
-      213: -833506970860156277
-    second: fantasyGhost_walking_8
+      213: 266507836668958014
+    second: romanceGhost_walkingAngry_8
   - first:
-      213: 4446602346420095887
-    second: fantasyGhost_walking_9
+      213: 3300251095728585001
+    second: romanceGhost_walkingAngry_9
   - first:
-      213: -5744315162644226451
-    second: fantasyGhost_walking_10
+      213: 9052546111055393870
+    second: romanceGhost_walkingAngry_10
   - first:
-      213: -5262151473169997084
-    second: fantasyGhost_walking_11
+      213: -6647183509851829511
+    second: romanceGhost_walkingAngry_11
   - first:
-      213: -6730035215715390688
-    second: fantasyGhost_walking_12
+      213: -1589689402288270956
+    second: romanceGhost_walkingAngry_12
   - first:
-      213: -8753414424310755286
-    second: fantasyGhost_walking_13
+      213: 6528119072891385052
+    second: romanceGhost_walkingAngry_13
   - first:
-      213: -2660492639523484667
-    second: fantasyGhost_walking_14
+      213: 5420539690877666573
+    second: romanceGhost_walkingAngry_14
   - first:
-      213: 3195499461052679998
-    second: fantasyGhost_walking_15
+      213: 1609024340007790081
+    second: romanceGhost_walkingAngry_15
   - first:
-      213: 1877329792668629065
-    second: fantasyGhost_walking_16
+      213: -4338599577397512550
+    second: romanceGhost_walkingAngry_16
   - first:
-      213: 7258396430731501218
-    second: fantasyGhost_walking_17
+      213: -179713906695840736
+    second: romanceGhost_walkingAngry_17
   - first:
-      213: 8410654871688072172
-    second: fantasyGhost_walking_18
+      213: -3872000458397383474
+    second: romanceGhost_walkingAngry_18
   - first:
-      213: -8414498914255542075
-    second: fantasyGhost_walking_19
+      213: 406053736746710653
+    second: romanceGhost_walkingAngry_19
   - first:
-      213: 2570351513964649775
-    second: fantasyGhost_walking_20
+      213: -1952332889509956690
+    second: romanceGhost_walkingAngry_20
   - first:
-      213: 3872690784971827445
-    second: fantasyGhost_walking_21
+      213: 5857783834192525262
+    second: romanceGhost_walkingAngry_21
   - first:
-      213: -2878613058814006916
-    second: fantasyGhost_walking_22
+      213: 7293470386600278228
+    second: romanceGhost_walkingAngry_22
   - first:
-      213: -5231066192424850465
-    second: fantasyGhost_walking_23
+      213: 1301313464331462582
+    second: romanceGhost_walkingAngry_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -182,166 +182,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fantasyGhost_walking_0
+      name: romanceGhost_walkingAngry_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3aef0dbc6c4fd7250800000000000000
-      internalID: 5944176217859096227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_1
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 112
+        x: 4
+        y: 116
         width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 718c37bcb73af65f0800000000000000
-      internalID: -761210059912656873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_2
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 112
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c73463bd3a5ab0c60800000000000000
-      internalID: 7785498504016053116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_3
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 112
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7691d65d78ac0a0d0800000000000000
-      internalID: -3413505832796743321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_4
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 75
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa2b11137cfb20660800000000000000
-      internalID: 7350648404064711338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_5
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 112
-        width: 31
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfdaa2c8d2e3f22d0800000000000000
-      internalID: -3301351636493226501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_6
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 112
-        width: 30
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dae302d01ee3ab30800000000000000
-      internalID: 4297540225451944665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_7
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 75
-        width: 27
         height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,130 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a77444202e5d44150800000000000000
-      internalID: 5856040582165841786
+      spriteID: 184761084a5e063e0800000000000000
+      internalID: -2062396134649334655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_8
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 39
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8a811c73d9ce64f0800000000000000
-      internalID: -833506970860156277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_9
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 75
-        width: 27
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8bc9c3664185bd30800000000000000
-      internalID: 4446602346420095887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_10
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 75
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6e53b45bc71840b0800000000000000
-      internalID: -5744315162644226451
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_11
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 75
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e2676f7d1519f6b0800000000000000
-      internalID: -5262151473169997084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_12
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 75
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02b2a69e0ac1a92a0800000000000000
-      internalID: -6730035215715390688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_13
+      name: romanceGhost_walkingAngry_1
       rect:
         serializedVersion: 2
         x: 9
-        y: 39
+        y: 78
         width: 27
-        height: 35
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,85 +219,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a205d2b65ff958680800000000000000
-      internalID: -8753414424310755286
+      spriteID: e4bfab77fddc04050800000000000000
+      internalID: 5782848281213860686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_14
+      name: romanceGhost_walkingAngry_2
       rect:
         serializedVersion: 2
-        x: 29
-        y: 2
+        x: 36
+        y: 116
         width: 31
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50c49ad4a08041bd0800000000000000
-      internalID: -2660492639523484667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_15
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 39
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e374fff44d1b85c20800000000000000
-      internalID: 3195499461052679998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_16
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 39
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 948754aff7d9d0a10800000000000000
-      internalID: 1877329792668629065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_17
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 39
-        width: 27
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -571,20 +241,306 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2aed6bcd8110bb460800000000000000
-      internalID: 7258396430731501218
+      spriteID: 683e37a0060b4d170800000000000000
+      internalID: 8202374747887231878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_18
+      name: romanceGhost_walkingAngry_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 78
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3b6277b43683100800000000000000
+      internalID: 87929368506446847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e37c66ee61de5a90800000000000000
+      internalID: -7323185669815372829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa4c547cf3013730800000000000000
+      internalID: 3976964328763706028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 116
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f07f50352da1420800000000000000
+      internalID: 2601622988784078678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 78
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893e4eaa20c4588e0800000000000000
+      internalID: -1691862510666980456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 116
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35d2862773d2b300800000000000000
+      internalID: 266507836668958014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 78
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929fe76d2e8dccd20800000000000000
+      internalID: 3300251095728585001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44fc4eb9ba11ad70800000000000000
+      internalID: 9052546111055393870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa827ae0d570c3a0800000000000000
+      internalID: -6647183509851829511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 40
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491976149e940f9e0800000000000000
+      internalID: -1589689402288270956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 78
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4b42795b9889a50800000000000000
+      internalID: 6528119072891385052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_14
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 40
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d054bad2120a93b40800000000000000
+      internalID: 5420539690877666573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 40
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1062f1dbc17645610800000000000000
+      internalID: 1609024340007790081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_16
       rect:
         serializedVersion: 2
         x: 139
-        y: 39
-        width: 26
-        height: 33
+        y: 40
+        width: 27
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,40 +549,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ceb40635b06a8b470800000000000000
-      internalID: 8410654871688072172
+      spriteID: a96bf86dba23ac3c0800000000000000
+      internalID: -4338599577397512550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_19
+      name: romanceGhost_walkingAngry_17
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 30
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5c863e4c1d1b93b80800000000000000
-      internalID: -8414498914255542075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_walking_20
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 2
+        x: 4
+        y: 6
         width: 31
         height: 35
       alignment: 0
@@ -637,18 +571,84 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2d10c96519bba320800000000000000
-      internalID: 2570351513964649775
+      spriteID: 02c523e6727818df0800000000000000
+      internalID: -179713906695840736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_21
+      name: romanceGhost_walkingAngry_18
       rect:
         serializedVersion: 2
-        x: 89
-        y: 2
+        x: 35
+        y: 6
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4031b0914e34ac0800000000000000
+      internalID: -3872000458397383474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 6
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76f182e8b792a500800000000000000
+      internalID: 406053736746710653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 40
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea37275b49be7e4e0800000000000000
+      internalID: -1952332889509956690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingAngry_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
         width: 32
         height: 32
       alignment: 0
@@ -659,19 +659,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f8ac2320cf8eb530800000000000000
-      internalID: 3872690784971827445
+      spriteID: ec732108c570b4150800000000000000
+      internalID: 5857783834192525262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_22
+      name: romanceGhost_walkingAngry_22
       rect:
         serializedVersion: 2
-        x: 120
-        y: 2
-        width: 32
+        x: 129
+        y: 6
+        width: 31
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -681,20 +681,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c79279facac1d08d0800000000000000
-      internalID: -2878613058814006916
+      spriteID: 4d8f3259cac973560800000000000000
+      internalID: 7293470386600278228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_walking_23
+      name: romanceGhost_walkingAngry_23
       rect:
         serializedVersion: 2
-        x: 151
-        y: 2
-        width: 31
-        height: 32
+        x: 160
+        y: 6
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,8 +703,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdb26fb63058767b0800000000000000
-      internalID: -5231066192424850465
+      spriteID: 6b7e8ee73b13f0210800000000000000
+      internalID: 1301313464331462582
       vertices: []
       indices: 
       edges: []
@@ -723,30 +723,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fantasyGhost_walking_0: 5944176217859096227
-      fantasyGhost_walking_1: -761210059912656873
-      fantasyGhost_walking_10: -5744315162644226451
-      fantasyGhost_walking_11: -5262151473169997084
-      fantasyGhost_walking_12: -6730035215715390688
-      fantasyGhost_walking_13: -8753414424310755286
-      fantasyGhost_walking_14: -2660492639523484667
-      fantasyGhost_walking_15: 3195499461052679998
-      fantasyGhost_walking_16: 1877329792668629065
-      fantasyGhost_walking_17: 7258396430731501218
-      fantasyGhost_walking_18: 8410654871688072172
-      fantasyGhost_walking_19: -8414498914255542075
-      fantasyGhost_walking_2: 7785498504016053116
-      fantasyGhost_walking_20: 2570351513964649775
-      fantasyGhost_walking_21: 3872690784971827445
-      fantasyGhost_walking_22: -2878613058814006916
-      fantasyGhost_walking_23: -5231066192424850465
-      fantasyGhost_walking_3: -3413505832796743321
-      fantasyGhost_walking_4: 7350648404064711338
-      fantasyGhost_walking_5: -3301351636493226501
-      fantasyGhost_walking_6: 4297540225451944665
-      fantasyGhost_walking_7: 5856040582165841786
-      fantasyGhost_walking_8: -833506970860156277
-      fantasyGhost_walking_9: 4446602346420095887
+      romanceGhost_walkingAngry_0: -2062396134649334655
+      romanceGhost_walkingAngry_1: 5782848281213860686
+      romanceGhost_walkingAngry_10: 9052546111055393870
+      romanceGhost_walkingAngry_11: -6647183509851829511
+      romanceGhost_walkingAngry_12: -1589689402288270956
+      romanceGhost_walkingAngry_13: 6528119072891385052
+      romanceGhost_walkingAngry_14: 5420539690877666573
+      romanceGhost_walkingAngry_15: 1609024340007790081
+      romanceGhost_walkingAngry_16: -4338599577397512550
+      romanceGhost_walkingAngry_17: -179713906695840736
+      romanceGhost_walkingAngry_18: -3872000458397383474
+      romanceGhost_walkingAngry_19: 406053736746710653
+      romanceGhost_walkingAngry_2: 8202374747887231878
+      romanceGhost_walkingAngry_20: -1952332889509956690
+      romanceGhost_walkingAngry_21: 5857783834192525262
+      romanceGhost_walkingAngry_22: 7293470386600278228
+      romanceGhost_walkingAngry_23: 1301313464331462582
+      romanceGhost_walkingAngry_3: 87929368506446847
+      romanceGhost_walkingAngry_4: -7323185669815372829
+      romanceGhost_walkingAngry_5: 3976964328763706028
+      romanceGhost_walkingAngry_6: 2601622988784078678
+      romanceGhost_walkingAngry_7: -1691862510666980456
+      romanceGhost_walkingAngry_8: 266507836668958014
+      romanceGhost_walkingAngry_9: 3300251095728585001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

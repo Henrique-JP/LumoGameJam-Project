@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 6096db64d5ae3fd4f972fca0bf8cced2
+guid: 52b2f2b5038df7e4f8425139c572cae1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2062396134649334655
-    second: romanceGhost_walkingAngry_0
+      213: -5253115842105687775
+    second: romanceGhost_walkingaLove_0
   - first:
-      213: 5782848281213860686
-    second: romanceGhost_walkingAngry_1
+      213: 7645636678649080570
+    second: romanceGhost_walkingaLove_1
   - first:
-      213: 8202374747887231878
-    second: romanceGhost_walkingAngry_2
+      213: 4769991727053660989
+    second: romanceGhost_walkingaLove_2
   - first:
-      213: 87929368506446847
-    second: romanceGhost_walkingAngry_3
+      213: 3452709721057490110
+    second: romanceGhost_walkingaLove_3
   - first:
-      213: -7323185669815372829
-    second: romanceGhost_walkingAngry_4
+      213: 218628313216878341
+    second: romanceGhost_walkingaLove_4
   - first:
-      213: 3976964328763706028
-    second: romanceGhost_walkingAngry_5
+      213: -2396944551971269896
+    second: romanceGhost_walkingaLove_5
   - first:
-      213: 2601622988784078678
-    second: romanceGhost_walkingAngry_6
+      213: 1614426370227918332
+    second: romanceGhost_walkingaLove_6
   - first:
-      213: -1691862510666980456
-    second: romanceGhost_walkingAngry_7
+      213: 939091435676693037
+    second: romanceGhost_walkingaLove_7
   - first:
-      213: 266507836668958014
-    second: romanceGhost_walkingAngry_8
+      213: -3611407409620906240
+    second: romanceGhost_walkingaLove_8
   - first:
-      213: 3300251095728585001
-    second: romanceGhost_walkingAngry_9
+      213: 7322614132494930345
+    second: romanceGhost_walkingaLove_9
   - first:
-      213: 9052546111055393870
-    second: romanceGhost_walkingAngry_10
+      213: -1336220768038506034
+    second: romanceGhost_walkingaLove_10
   - first:
-      213: -6647183509851829511
-    second: romanceGhost_walkingAngry_11
+      213: 539765940428263989
+    second: romanceGhost_walkingaLove_11
   - first:
-      213: -1589689402288270956
-    second: romanceGhost_walkingAngry_12
+      213: -5834545186461679821
+    second: romanceGhost_walkingaLove_12
   - first:
-      213: 6528119072891385052
-    second: romanceGhost_walkingAngry_13
+      213: 4583102870766318426
+    second: romanceGhost_walkingaLove_13
   - first:
-      213: 5420539690877666573
-    second: romanceGhost_walkingAngry_14
+      213: 436280488087937298
+    second: romanceGhost_walkingaLove_14
   - first:
-      213: 1609024340007790081
-    second: romanceGhost_walkingAngry_15
+      213: 8107244816870345483
+    second: romanceGhost_walkingaLove_15
   - first:
-      213: -4338599577397512550
-    second: romanceGhost_walkingAngry_16
+      213: 6392115557724305360
+    second: romanceGhost_walkingaLove_16
   - first:
-      213: -179713906695840736
-    second: romanceGhost_walkingAngry_17
+      213: 7724526667817173633
+    second: romanceGhost_walkingaLove_17
   - first:
-      213: -3872000458397383474
-    second: romanceGhost_walkingAngry_18
+      213: -3288180917954806024
+    second: romanceGhost_walkingaLove_18
   - first:
-      213: 406053736746710653
-    second: romanceGhost_walkingAngry_19
+      213: 6361206648432785313
+    second: romanceGhost_walkingaLove_19
   - first:
-      213: -1952332889509956690
-    second: romanceGhost_walkingAngry_20
+      213: -9219315012198271048
+    second: romanceGhost_walkingaLove_20
   - first:
-      213: 5857783834192525262
-    second: romanceGhost_walkingAngry_21
+      213: 4820106548132805720
+    second: romanceGhost_walkingaLove_21
   - first:
-      213: 7293470386600278228
-    second: romanceGhost_walkingAngry_22
+      213: -5185632495632143204
+    second: romanceGhost_walkingaLove_22
   - first:
-      213: 1301313464331462582
-    second: romanceGhost_walkingAngry_23
+      213: 2527549429236213323
+    second: romanceGhost_walkingaLove_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -182,13 +182,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_0
+      name: romanceGhost_walkingaLove_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 116
-        width: 32
-        height: 33
+        x: 7
+        y: 95
+        width: 29
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 184761084a5e063e0800000000000000
-      internalID: -2062396134649334655
+      spriteID: 121405b49fe2917b0800000000000000
+      internalID: -5253115842105687775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_1
+      name: romanceGhost_walkingaLove_1
       rect:
         serializedVersion: 2
-        x: 9
-        y: 78
-        width: 27
-        height: 38
+        x: 38
+        y: 95
+        width: 29
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4bfab77fddc04050800000000000000
-      internalID: 5782848281213860686
+      spriteID: afa63980d02ca1a60800000000000000
+      internalID: 7645636678649080570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_2
+      name: romanceGhost_walkingaLove_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 116
-        width: 31
-        height: 30
+        x: 70
+        y: 95
+        width: 29
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 683e37a0060b4d170800000000000000
-      internalID: 8202374747887231878
+      spriteID: d33e598043a623240800000000000000
+      internalID: 4769991727053660989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_3
+      name: romanceGhost_walkingaLove_3
       rect:
         serializedVersion: 2
-        x: 63
-        y: 78
-        width: 27
-        height: 38
+        x: 101
+        y: 95
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff3b6277b43683100800000000000000
-      internalID: 87929368506446847
+      spriteID: eb47b24b23d7aef20800000000000000
+      internalID: 3452709721057490110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_4
+      name: romanceGhost_walkingaLove_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 116
-        width: 32
-        height: 32
+        x: 128
+        y: 64
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +285,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e37c66ee61de5a90800000000000000
-      internalID: -7323185669815372829
+      spriteID: 5078223ea49b80300800000000000000
+      internalID: 218628313216878341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_5
+      name: romanceGhost_walkingaLove_5
       rect:
         serializedVersion: 2
-        x: 90
-        y: 78
-        width: 27
-        height: 38
+        x: 132
+        y: 95
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,20 +307,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: caa4c547cf3013730800000000000000
-      internalID: 3976964328763706028
+      spriteID: 8f2d17921a75cbed0800000000000000
+      internalID: -2396944551971269896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_6
+      name: romanceGhost_walkingaLove_6
       rect:
         serializedVersion: 2
-        x: 99
-        y: 116
-        width: 31
-        height: 35
+        x: 163
+        y: 95
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65f07f50352da1420800000000000000
-      internalID: 2601622988784078678
+      spriteID: cf55579ea38976610800000000000000
+      internalID: 1614426370227918332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_7
+      name: romanceGhost_walkingaLove_7
       rect:
         serializedVersion: 2
-        x: 117
-        y: 78
-        width: 27
-        height: 38
+        x: 2
+        y: 64
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,108 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 893e4eaa20c4588e0800000000000000
-      internalID: -1691862510666980456
+      spriteID: d22fe1b6fa2580d00800000000000000
+      internalID: 939091435676693037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_8
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 116
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e35d2862773d2b300800000000000000
-      internalID: 266507836668958014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_9
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 78
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 929fe76d2e8dccd20800000000000000
-      internalID: 3300251095728585001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_10
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 116
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e44fc4eb9ba11ad70800000000000000
-      internalID: 9052546111055393870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_11
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 40
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fa827ae0d570c3a0800000000000000
-      internalID: -6647183509851829511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_12
+      name: romanceGhost_walkingaLove_8
       rect:
         serializedVersion: 2
         x: 31
-        y: 40
-        width: 27
-        height: 38
+        y: 33
+        width: 30
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,20 +373,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 491976149e940f9e0800000000000000
-      internalID: -1589689402288270956
+      spriteID: 00f05525814b1edc0800000000000000
+      internalID: -3611407409620906240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_13
+      name: romanceGhost_walkingaLove_9
       rect:
         serializedVersion: 2
-        x: 36
-        y: 78
-        width: 27
-        height: 34
+        x: 33
+        y: 64
+        width: 30
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,130 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd4b42795b9889a50800000000000000
-      internalID: 6528119072891385052
+      spriteID: 9a19d92b1c62f9560800000000000000
+      internalID: 7322614132494930345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_14
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 40
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d054bad2120a93b40800000000000000
-      internalID: 5420539690877666573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_15
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 40
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1062f1dbc17645610800000000000000
-      internalID: 1609024340007790081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_16
-      rect:
-        serializedVersion: 2
-        x: 139
-        y: 40
-        width: 27
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a96bf86dba23ac3c0800000000000000
-      internalID: -4338599577397512550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_17
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 6
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02c523e6727818df0800000000000000
-      internalID: -179713906695840736
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_18
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 6
-        width: 31
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec4031b0914e34ac0800000000000000
-      internalID: -3872000458397383474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: romanceGhost_walkingAngry_19
+      name: romanceGhost_walkingaLove_10
       rect:
         serializedVersion: 2
         x: 66
-        y: 6
-        width: 31
-        height: 35
+        y: 64
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,20 +417,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d76f182e8b792a500800000000000000
-      internalID: 406053736746710653
+      spriteID: ec1b0938a4ac47de0800000000000000
+      internalID: -1336220768038506034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_20
+      name: romanceGhost_walkingaLove_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 40
-        width: 27
-        height: 34
+        x: 99
+        y: 64
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,20 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea37275b49be7e4e0800000000000000
-      internalID: -1952332889509956690
+      spriteID: 532d4155342ad7700800000000000000
+      internalID: 539765940428263989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_21
+      name: romanceGhost_walkingaLove_12
       rect:
         serializedVersion: 2
-        x: 97
-        y: 6
-        width: 32
-        height: 32
+        x: 157
+        y: 64
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,20 +461,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ec732108c570b4150800000000000000
-      internalID: 5857783834192525262
+      spriteID: 33f7cfec018870fa0800000000000000
+      internalID: -5834545186461679821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_22
+      name: romanceGhost_walkingaLove_13
       rect:
         serializedVersion: 2
-        x: 129
-        y: 6
-        width: 31
-        height: 30
+        x: 2
+        y: 33
+        width: 30
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,20 +483,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d8f3259cac973560800000000000000
-      internalID: 7293470386600278228
+      spriteID: a53791557c37a9f30800000000000000
+      internalID: 4583102870766318426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanceGhost_walkingAngry_23
+      name: romanceGhost_walkingaLove_14
       rect:
         serializedVersion: 2
-        x: 160
-        y: 6
-        width: 32
-        height: 33
+        x: 31
+        y: 2
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,8 +505,206 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b7e8ee73b13f0210800000000000000
-      internalID: 1301313464331462582
+      spriteID: 2116aeadacafd0600800000000000000
+      internalID: 436280488087937298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 33
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b0fa8f438b28070800000000000000
+      internalID: 8107244816870345483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_16
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 33
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7b76d9b3b55b850800000000000000
+      internalID: 6392115557724305360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 33
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182464df318033b60800000000000000
+      internalID: 7724526667817173633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 33
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fef51c60e80e52d0800000000000000
+      internalID: -3288180917954806024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a770be5ebb874850800000000000000
+      internalID: 6361206648432785313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7fe79a7d96e0080800000000000000
+      internalID: -9219315012198271048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c7df41e5574e240800000000000000
+      internalID: 4820106548132805720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_22
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9caf1a48bee808b0800000000000000
+      internalID: -5185632495632143204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_walkingaLove_23
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46add970d8a31320800000000000000
+      internalID: 2527549429236213323
       vertices: []
       indices: 
       edges: []
@@ -723,30 +723,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      romanceGhost_walkingAngry_0: -2062396134649334655
-      romanceGhost_walkingAngry_1: 5782848281213860686
-      romanceGhost_walkingAngry_10: 9052546111055393870
-      romanceGhost_walkingAngry_11: -6647183509851829511
-      romanceGhost_walkingAngry_12: -1589689402288270956
-      romanceGhost_walkingAngry_13: 6528119072891385052
-      romanceGhost_walkingAngry_14: 5420539690877666573
-      romanceGhost_walkingAngry_15: 1609024340007790081
-      romanceGhost_walkingAngry_16: -4338599577397512550
-      romanceGhost_walkingAngry_17: -179713906695840736
-      romanceGhost_walkingAngry_18: -3872000458397383474
-      romanceGhost_walkingAngry_19: 406053736746710653
-      romanceGhost_walkingAngry_2: 8202374747887231878
-      romanceGhost_walkingAngry_20: -1952332889509956690
-      romanceGhost_walkingAngry_21: 5857783834192525262
-      romanceGhost_walkingAngry_22: 7293470386600278228
-      romanceGhost_walkingAngry_23: 1301313464331462582
-      romanceGhost_walkingAngry_3: 87929368506446847
-      romanceGhost_walkingAngry_4: -7323185669815372829
-      romanceGhost_walkingAngry_5: 3976964328763706028
-      romanceGhost_walkingAngry_6: 2601622988784078678
-      romanceGhost_walkingAngry_7: -1691862510666980456
-      romanceGhost_walkingAngry_8: 266507836668958014
-      romanceGhost_walkingAngry_9: 3300251095728585001
+      romanceGhost_walkingaLove_0: -5253115842105687775
+      romanceGhost_walkingaLove_1: 7645636678649080570
+      romanceGhost_walkingaLove_10: -1336220768038506034
+      romanceGhost_walkingaLove_11: 539765940428263989
+      romanceGhost_walkingaLove_12: -5834545186461679821
+      romanceGhost_walkingaLove_13: 4583102870766318426
+      romanceGhost_walkingaLove_14: 436280488087937298
+      romanceGhost_walkingaLove_15: 8107244816870345483
+      romanceGhost_walkingaLove_16: 6392115557724305360
+      romanceGhost_walkingaLove_17: 7724526667817173633
+      romanceGhost_walkingaLove_18: -3288180917954806024
+      romanceGhost_walkingaLove_19: 6361206648432785313
+      romanceGhost_walkingaLove_2: 4769991727053660989
+      romanceGhost_walkingaLove_20: -9219315012198271048
+      romanceGhost_walkingaLove_21: 4820106548132805720
+      romanceGhost_walkingaLove_22: -5185632495632143204
+      romanceGhost_walkingaLove_23: 2527549429236213323
+      romanceGhost_walkingaLove_3: 3452709721057490110
+      romanceGhost_walkingaLove_4: 218628313216878341
+      romanceGhost_walkingaLove_5: -2396944551971269896
+      romanceGhost_walkingaLove_6: 1614426370227918332
+      romanceGhost_walkingaLove_7: 939091435676693037
+      romanceGhost_walkingaLove_8: -3611407409620906240
+      romanceGhost_walkingaLove_9: 7322614132494930345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

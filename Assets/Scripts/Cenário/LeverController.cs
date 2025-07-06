@@ -6,8 +6,10 @@ using UnityEngine;
 public class LeverController : MonoBehaviour
 {
     [Header("Configurações da Porta")]
-    public List<GameObject> doorObjects = new(); // O objeto da porta que será aberta
+    public GameObject []doorObjects; // O objeto da porta que será aberta
+    public Collider2D doorCollider; // O collider da porta que será desativado
     public Sprite LeverDesableSprite;
+    public Sprite DoorDesableSprite;
 
     [Header("Configurações da Câmera")]
     public CinemachineCamera playerFollowVCam; // A VCam que segue o jogador
@@ -97,7 +99,7 @@ public class LeverController : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         // Abrir a porta
-        if (doorObjects != null && doorObjects.Count > 0)
+        if (doorObjects != null && doorObjects.Length > 0)
         {
 
             // if (doorAnimator != null)
@@ -111,7 +113,10 @@ public class LeverController : MonoBehaviour
             {
                 if (door != null) // Boa prática verificar se a porta não é nula
                 {
-                    Destroy(door);
+                    //Destroy(door);
+                    doorCollider.enabled = false; // Desativa o collider da porta
+                    doorObjects[0].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite; // Altera o sprite da porta para indicar que foi desativada
+                    doorObjects[1].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite;
                 }
             }
         }

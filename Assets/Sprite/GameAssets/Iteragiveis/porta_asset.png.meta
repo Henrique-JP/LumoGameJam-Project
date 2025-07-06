@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 5994945d3c7332f48a9d97a7d5aa3899
+guid: f25171d8fc304194183bbd20463617bd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 847954695106482656
-    second: romanticGhost_idleAngry_0
+      213: -4959907964241923605
+    second: porta_asset_0
   - first:
-      213: -5292601277917510338
-    second: romanticGhost_idleAngry_1
+      213: 591713316900222615
+    second: porta_asset_1
   - first:
-      213: 5910553463832441256
-    second: romanticGhost_idleAngry_2
-  - first:
-      213: 7258272336589890044
-    second: romanticGhost_idleAngry_3
+      213: 8492181145407639177
+    second: porta_asset_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: romanticGhost_idleAngry_0
+      name: porta_asset_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 31
-        height: 35
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e152737d4a84cb00800000000000000
-      internalID: 847954695106482656
+      spriteID: be1bab83cfdda2bb0800000000000000
+      internalID: -4959907964241923605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanticGhost_idleAngry_1
+      name: porta_asset_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 1
-        width: 27
-        height: 38
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e35c2fbdd27ec86b0800000000000000
-      internalID: -5292601277917510338
+      spriteID: 796b4be6020363800800000000000000
+      internalID: 591713316900222615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanticGhost_idleAngry_2
+      name: porta_asset_2
       rect:
         serializedVersion: 2
-        x: 57
-        y: 1
-        width: 31
-        height: 35
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,30 +178,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8a1ffa55f01860250800000000000000
-      internalID: 5910553463832441256
+      spriteID: 98eca4c12c94ad570800000000000000
+      internalID: 8492181145407639177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: romanticGhost_idleAngry_3
+      name: porta_asset_3
       rect:
         serializedVersion: 2
-        x: 87
-        y: 1
-        width: 27
-        height: 38
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cf12c71fb309ab460800000000000000
-      internalID: 7258272336589890044
+      spriteID: 04cf3866831fa7a4d94e72df238fda93
+      internalID: -805725581
       vertices: []
       indices: 
       edges: []
@@ -213,7 +210,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1049e3ab9b286f0478e1832a75934d43
     internalID: 0
     vertices: []
     indices: 
@@ -221,12 +218,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      romanticGhost_idleAngry_0: 847954695106482656
-      romanticGhost_idleAngry_1: -5292601277917510338
-      romanticGhost_idleAngry_2: 5910553463832441256
-      romanticGhost_idleAngry_3: 7258272336589890044
+      porta_asset_0: -4959907964241923605
+      porta_asset_1: 591713316900222615
+      porta_asset_2: 8492181145407639177
+      porta_asset_3: -805725581
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

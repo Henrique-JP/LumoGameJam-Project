@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: d2ad014cb3d4638438bd4b8141f97e42
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6955343480278954159
+    second: romanceGhost_loving_0
+  - first:
+      213: -8872482617592065904
+    second: romanceGhost_loving_1
+  - first:
+      213: 2549702980399287576
+    second: romanceGhost_loving_2
+  - first:
+      213: -5073830315507073642
+    second: romanceGhost_loving_3
+  - first:
+      213: -3007697723191355959
+    second: romanceGhost_loving_4
+  - first:
+      213: 6021495900156512864
+    second: romanceGhost_loving_5
+  - first:
+      213: 3763715200706323375
+    second: romanceGhost_loving_6
+  - first:
+      213: -79492065067744500
+    second: romanceGhost_loving_7
+  - first:
+      213: -4672153468109186012
+    second: romanceGhost_loving_8
+  - first:
+      213: -7605168264842985203
+    second: romanceGhost_loving_9
+  - first:
+      213: 154780522857467349
+    second: romanceGhost_loving_10
+  - first:
+      213: 5539121427166529287
+    second: romanceGhost_loving_11
+  - first:
+      213: -8134153096775850382
+    second: romanceGhost_loving_12
+  - first:
+      213: 5467402536526768651
+    second: romanceGhost_loving_13
+  - first:
+      213: -724405999995950256
+    second: romanceGhost_loving_14
+  - first:
+      213: -5198262789549798537
+    second: romanceGhost_loving_15
+  - first:
+      213: -7425720331509225925
+    second: romanceGhost_loving_16
+  - first:
+      213: 705445743224979384
+    second: romanceGhost_loving_17
+  - first:
+      213: -7912379341933236282
+    second: romanceGhost_loving_18
+  - first:
+      213: 6982394693689444067
+    second: romanceGhost_loving_19
+  - first:
+      213: -4146471378872750674
+    second: romanceGhost_loving_20
+  - first:
+      213: -9019339479195213300
+    second: romanceGhost_loving_21
+  - first:
+      213: 774138827325851760
+    second: romanceGhost_loving_22
+  - first:
+      213: 5652692359294070952
+    second: romanceGhost_loving_23
+  - first:
+      213: 8713633771128341773
+    second: romanceGhost_loving_24
+  - first:
+      213: 3553011487512578833
+    second: romanceGhost_loving_25
+  - first:
+      213: -5093643343114172068
+    second: romanceGhost_loving_26
+  - first:
+      213: -9155564753057006269
+    second: romanceGhost_loving_27
+  - first:
+      213: 5689710489844241646
+    second: romanceGhost_loving_28
+  - first:
+      213: -3453175774362867287
+    second: romanceGhost_loving_29
+  - first:
+      213: 1523088579030592871
+    second: romanceGhost_loving_30
+  - first:
+      213: -6054260548424190902
+    second: romanceGhost_loving_31
+  - first:
+      213: -8748315182669760273
+    second: romanceGhost_loving_32
+  - first:
+      213: 8194398076823116645
+    second: romanceGhost_loving_33
+  - first:
+      213: 4339179576331170851
+    second: romanceGhost_loving_34
+  - first:
+      213: 4221912239081673456
+    second: romanceGhost_loving_35
+  - first:
+      213: 5793863087471918863
+    second: romanceGhost_loving_36
+  - first:
+      213: -7003262970673208475
+    second: romanceGhost_loving_37
+  - first:
+      213: 1084190059692592158
+    second: romanceGhost_loving_38
+  - first:
+      213: 1975814109224029791
+    second: romanceGhost_loving_39
+  - first:
+      213: -8095627791544435030
+    second: romanceGhost_loving_40
+  - first:
+      213: -8870422905177069598
+    second: romanceGhost_loving_41
+  - first:
+      213: 8105120351186521493
+    second: romanceGhost_loving_42
+  - first:
+      213: 8687810197346721509
+    second: romanceGhost_loving_43
+  - first:
+      213: 3680951265448639864
+    second: romanceGhost_loving_44
+  - first:
+      213: 4193228260443512547
+    second: romanceGhost_loving_45
+  - first:
+      213: 209129850521025512
+    second: romanceGhost_loving_46
+  - first:
+      213: 1591428441849060831
+    second: romanceGhost_loving_47
+  - first:
+      213: -8769857926586914629
+    second: romanceGhost_loving_48
+  - first:
+      213: 264895432683212013
+    second: romanceGhost_loving_49
+  - first:
+      213: 7872291591422744574
+    second: romanceGhost_loving_50
+  - first:
+      213: -5648918015184329027
+    second: romanceGhost_loving_51
+  - first:
+      213: -501562006734194949
+    second: romanceGhost_loving_52
+  - first:
+      213: 1738653445854016996
+    second: romanceGhost_loving_53
+  - first:
+      213: -3616577698515259393
+    second: romanceGhost_loving_54
+  - first:
+      213: -958055650050347119
+    second: romanceGhost_loving_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: romanceGhost_loving_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 111
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fc427a4f7a97f90800000000000000
+      internalID: -6955343480278954159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 111
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090d896511c9ed480800000000000000
+      internalID: -8872482617592065904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d447d0a5d526320800000000000000
+      internalID: 2549702980399287576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 111
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69db799d5322699b0800000000000000
+      internalID: -5073830315507073642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 111
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c59d613bd28246d0800000000000000
+      internalID: -3007697723191355959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 111
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06acc413e96a09350800000000000000
+      internalID: 6021495900156512864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 111
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3a6d5b8076b3430800000000000000
+      internalID: 3763715200706323375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_7
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 111
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03cc23536695eef0800000000000000
+      internalID: -79492065067744500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 111
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c1e35cc2d292fb0800000000000000
+      internalID: -4672153468109186012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 111
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01c5fcc1c3057690800000000000000
+      internalID: -7605168264842985203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 111
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd8113c014e52200800000000000000
+      internalID: 154780522857467349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 111
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707040a2799eedc40800000000000000
+      internalID: 5539121427166529287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_12
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 120
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762806eadead1f80800000000000000
+      internalID: -8134153096775850382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 111
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6fb1b3ad10eb40800000000000000
+      internalID: 5467402536526768651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 76
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b6411c49462f5f0800000000000000
+      internalID: -724405999995950256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 85
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bc0c3d88f0cd7b0800000000000000
+      internalID: -5198262789549798537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 76
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b362ffe93ba82f890800000000000000
+      internalID: -7425720331509225925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 76
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf7c357a2f3ac900800000000000000
+      internalID: 705445743224979384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_18
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 76
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf2eebf8e4913290800000000000000
+      internalID: -7912379341933236282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 76
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e68ee6caf276e060800000000000000
+      internalID: 6982394693689444067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 76
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead27f6ff36c476c0800000000000000
+      internalID: -4146471378872750674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 76
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02a9e9b78ed4d280800000000000000
+      internalID: -9019339479195213300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 76
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0784891792b4eba00800000000000000
+      internalID: 774138827325851760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 76
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0b94460c5627e40800000000000000
+      internalID: 5652692359294070952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 76
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05c3fe7fbb0de870800000000000000
+      internalID: 8713633771128341773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 76
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bc11c8f15de4130800000000000000
+      internalID: 3553011487512578833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_26
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 76
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c598521ed5ebf49b0800000000000000
+      internalID: -5093643343114172068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_27
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 76
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d33f78d56e0f080800000000000000
+      internalID: -9155564753057006269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 39
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4dafd8b89e5fe40800000000000000
+      internalID: 5689710489844241646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 39
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9ed1ecdead310d0800000000000000
+      internalID: -3453175774362867287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_30
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 39
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76da2923ef8132510800000000000000
+      internalID: 1523088579030592871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 39
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44b389ab12fafba0800000000000000
+      internalID: -6054260548424190902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_32
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 39
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8ffc121bdb79680800000000000000
+      internalID: -8748315182669760273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_33
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 39
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b9f2592a958b170800000000000000
+      internalID: 8194398076823116645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_34
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 39
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32479dfa5dcd73c30800000000000000
+      internalID: 4339179576331170851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_35
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 39
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2565310de379a30800000000000000
+      internalID: 4221912239081673456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_36
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 39
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ff206e7cfe76050800000000000000
+      internalID: 5793863087471918863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_37
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 39
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563606cde696fce90800000000000000
+      internalID: -7003262970673208475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 39
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8cf07d11db0f00800000000000000
+      internalID: 1084190059692592158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_39
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 39
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ec08ac6708b6b10800000000000000
+      internalID: 1975814109224029791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_40
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 48
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaeb6338a6d86af80800000000000000
+      internalID: -8095627791544435030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_41
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 39
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7ae618d5de5e480800000000000000
+      internalID: -8870422905177069598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d0342440c2b7070800000000000000
+      internalID: 8105120351186521493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_43
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 10
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee1ed0385d419870800000000000000
+      internalID: 8687810197346721509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_44
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d37946cad551330800000000000000
+      internalID: 3680951265448639864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee5dddd2e6513a30800000000000000
+      internalID: 4193228260443512547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_46
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb7c34bd7af6e200800000000000000
+      internalID: 209129850521025512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddddd17cb3e51610800000000000000
+      internalID: 1591428441849060831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a4233ea43b4680800000000000000
+      internalID: -8769857926586914629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decc4b71ef81da300800000000000000
+      internalID: 264895432683212013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef71c034e7fff3d60800000000000000
+      internalID: 7872291591422744574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_51
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db622a39ef20b91b0800000000000000
+      internalID: -5648918015184329027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6b6c323081a09f0800000000000000
+      internalID: -501562006734194949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_53
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e533a3e810f02810800000000000000
+      internalID: 1738653445854016996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_54
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffe561aeb55fcdc0800000000000000
+      internalID: -3616577698515259393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanceGhost_loving_55
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f61b7567d44b2f0800000000000000
+      internalID: -958055650050347119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      romanceGhost_loving_0: -6955343480278954159
+      romanceGhost_loving_1: -8872482617592065904
+      romanceGhost_loving_10: 154780522857467349
+      romanceGhost_loving_11: 5539121427166529287
+      romanceGhost_loving_12: -8134153096775850382
+      romanceGhost_loving_13: 5467402536526768651
+      romanceGhost_loving_14: -724405999995950256
+      romanceGhost_loving_15: -5198262789549798537
+      romanceGhost_loving_16: -7425720331509225925
+      romanceGhost_loving_17: 705445743224979384
+      romanceGhost_loving_18: -7912379341933236282
+      romanceGhost_loving_19: 6982394693689444067
+      romanceGhost_loving_2: 2549702980399287576
+      romanceGhost_loving_20: -4146471378872750674
+      romanceGhost_loving_21: -9019339479195213300
+      romanceGhost_loving_22: 774138827325851760
+      romanceGhost_loving_23: 5652692359294070952
+      romanceGhost_loving_24: 8713633771128341773
+      romanceGhost_loving_25: 3553011487512578833
+      romanceGhost_loving_26: -5093643343114172068
+      romanceGhost_loving_27: -9155564753057006269
+      romanceGhost_loving_28: 5689710489844241646
+      romanceGhost_loving_29: -3453175774362867287
+      romanceGhost_loving_3: -5073830315507073642
+      romanceGhost_loving_30: 1523088579030592871
+      romanceGhost_loving_31: -6054260548424190902
+      romanceGhost_loving_32: -8748315182669760273
+      romanceGhost_loving_33: 8194398076823116645
+      romanceGhost_loving_34: 4339179576331170851
+      romanceGhost_loving_35: 4221912239081673456
+      romanceGhost_loving_36: 5793863087471918863
+      romanceGhost_loving_37: -7003262970673208475
+      romanceGhost_loving_38: 1084190059692592158
+      romanceGhost_loving_39: 1975814109224029791
+      romanceGhost_loving_4: -3007697723191355959
+      romanceGhost_loving_40: -8095627791544435030
+      romanceGhost_loving_41: -8870422905177069598
+      romanceGhost_loving_42: 8105120351186521493
+      romanceGhost_loving_43: 8687810197346721509
+      romanceGhost_loving_44: 3680951265448639864
+      romanceGhost_loving_45: 4193228260443512547
+      romanceGhost_loving_46: 209129850521025512
+      romanceGhost_loving_47: 1591428441849060831
+      romanceGhost_loving_48: -8769857926586914629
+      romanceGhost_loving_49: 264895432683212013
+      romanceGhost_loving_5: 6021495900156512864
+      romanceGhost_loving_50: 7872291591422744574
+      romanceGhost_loving_51: -5648918015184329027
+      romanceGhost_loving_52: -501562006734194949
+      romanceGhost_loving_53: 1738653445854016996
+      romanceGhost_loving_54: -3616577698515259393
+      romanceGhost_loving_55: -958055650050347119
+      romanceGhost_loving_6: 3763715200706323375
+      romanceGhost_loving_7: -79492065067744500
+      romanceGhost_loving_8: -4672153468109186012
+      romanceGhost_loving_9: -7605168264842985203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

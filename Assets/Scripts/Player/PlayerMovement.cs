@@ -1,48 +1,50 @@
 using System;
 using UnityEngine;
 
-// Garante que o componente Rigidbody2D sempre existirá neste GameObject.
+// Garante que o componente Rigidbody2D sempre existirï¿½ neste GameObject.
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     //======================================================================
-    //  CAMPOS SERIALIZADOS (Visíveis no Inspector)
+    //  CAMPOS SERIALIZADOS (Visï¿½veis no Inspector)
     //======================================================================
-    [Header("Configurações de Movimento")]
+    [Header("Configuraï¿½ï¿½es de Movimento")]
     [Tooltip("A velocidade base de movimento do jogador.")]
     [SerializeField] private float moveSpeed = 5f;
 
-    [Header("Configurações de Input")]
+    [Header("Configuraï¿½ï¿½es de Input")]
     [Tooltip("Nome do eixo de input horizontal (Project Settings -> Input Manager).")]
     [SerializeField] private string horizontalAxis = "Horizontal";
     [Tooltip("Nome do eixo de input vertical (Project Settings -> Input Manager).")]
     [SerializeField] private string verticalAxis = "Vertical";
 
     //======================================================================
-    //  PROPRIEDADES PÚBLICAS (Acesso para outros scripts)
+    //  PROPRIEDADES Pï¿½BLICAS (Acesso para outros scripts)
     //======================================================================
     public float CurrentSpeed => moveSpeed;
     public Vector2 CurrentMovement => movement; // Renomeado para clareza
     public Vector2 LastMovementDirection { get; private set; }
 
     //======================================================================
-    //  EVENTOS PÚBLICOS
+    //  EVENTOS Pï¿½BLICOS
     //======================================================================
     public event Action<Vector2> OnMove;
 
     //======================================================================
-    //  CAMPOS PRIVADOS (Lógica interna)
+    //  CAMPOS PRIVADOS (Lï¿½gica interna)
     //======================================================================
     private Rigidbody2D rb;
     private Vector2 movement;
     private float originalSpeed;
 
+    private Animator anim; // Referï¿½ï¿½ncia ao Animator, se houver
+
     //======================================================================
-    //  MÉTODOS DA UNITY
+    //  Mï¿½TODOS DA UNITY
     //======================================================================
     private void Awake()
     {
-        // É uma boa prática obter componentes no Awake()
+        // ï¿½ uma boa prï¿½tica obter componentes no Awake()
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -50,7 +52,8 @@ public class PlayerMovement : MonoBehaviour
     {
         // Armazenar valores iniciais no Start()
         originalSpeed = moveSpeed;
-        LastMovementDirection = Vector2.down; // Define uma direção inicial padrão
+        LastMovementDirection = Vector2.down; // Define uma direï¿½ï¿½o inicial padrï¿½o
+        anim = GetComponent<Animator>(); // Obtendo o Animator, se existir
     }
 
     private void Update()
@@ -66,12 +69,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // A movimentação física deve ocorrer no FixedUpdate
+        // A movimentaï¿½ï¿½o fï¿½sica deve ocorrer no FixedUpdate
         Move();
     }
 
     //======================================================================
-    //  MÉTODOS PÚBLICOS
+    //  Mï¿½TODOS Pï¿½BLICOS
     //======================================================================
     public void ApplySpeedModifier(float newSpeed)
     {
@@ -87,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //======================================================================
-    //  MÉTODOS PRIVADOS (Lógica Interna)
+    //  Mï¿½TODOS PRIVADOS (Lï¿½gica Interna)
     //======================================================================
     private void ProcessInputs()
     {
@@ -96,22 +99,86 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2 input = new(moveX, moveY);
 
-        // Normaliza o vetor de input para evitar movimento diagonal mais rápido
+        // Normaliza o vetor de input para evitar movimento diagonal mais rï¿½pido
         movement = input.sqrMagnitude > 1f ? input.normalized : input;
 
-        // Se o jogador estiver se movendo, atualiza a última direção registrada
-        if (movement.sqrMagnitude > 0.01f) // Usar um limiar pequeno é mais seguro que 0.1f
+        // Se o jogador estiver se movendo, atualiza a ï¿½ltima direï¿½ï¿½o registrada
+        if (movement.sqrMagnitude > 0.01f) // Usar um limiar pequeno ï¿½ mais seguro que 0.1f
         {
             LastMovementDirection = movement.normalized;
         }
 
         // Notifica outros scripts sobre o vetor de movimento atual
         OnMove?.Invoke(movement);
+
+        //Controle das animaÃ§Ãµes
+        if (input.x != 0)
+        {
+            ResetLayers();
+            anim.SetLayerWeight(1, 1);
+
+            if (input.x > 0)
+            {
+                GetComponent<SpriteRenderer>().flipX = true; //invertido pq tÃ¡ com problema na animaÃ§Ã£o de andar para direita, a personagem parece que tÃ¡ andando ao contrÃ©rio, caso resolvido, inverter true por false
+            }
+            else if (input.x < 0)
+            {
+                GetComponent<SpriteRenderer>().flipX = false;
+            }
+        }
+
+        if(input.y > 0 && input.x == 0)
+        {
+            ResetLayers();
+            anim.SetLayerWeight(2, 1);
+        }
+        else if(input.y < 0 && input.x == 0)
+        {
+            ResetLayers();
+            anim.SetLayerWeight(0, 1);
+        }
+        else if(input.y > 0 && input.x < 0)
+        {
+            // ResetLayers();
+            // anim.SetLayerWeight(1, 1);
+        }
+        else if(input.y > 0 && input.x > 0)
+        {
+            // ResetLayers();
+            // anim.SetLayerWeight(1, 1);
+        }
+        else if(input.y < 0 && input.x > 0)
+        {
+            // ResetLayers();
+            // anim.SetLayerWeight(2, 1);
+        }
+        else if(input.y < 0)
+        {
+            // ResetLayers();
+            // anim.SetLayerWeight(0, 1);
+        }
+
+        if (input != Vector2.zero)
+        {
+            anim.SetBool("Walking", true);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
+        }
     }
 
     private void Move()
     {
-        // MovePosition é a forma correta de mover um Rigidbody, respeitando a física
+        // MovePosition ï¿½ a forma correta de mover um Rigidbody, respeitando a fï¿½sica
         rb.MovePosition(rb.position + moveSpeed * Time.fixedDeltaTime * movement);
+    }
+
+    void ResetLayers()
+    {
+        // Reseta os layers do Animator
+        anim.SetLayerWeight(0, 0);
+        anim.SetLayerWeight(1, 0);
+        anim.SetLayerWeight(2, 0);
     }
 }

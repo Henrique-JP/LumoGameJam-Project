@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: fa5930692b64e5c44b2c7bb1707187ed
+guid: 5994945d3c7332f48a9d97a7d5aa3899
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6063548528688940788
-    second: fantasyGhost_idle_0
+      213: 847954695106482656
+    second: romanticGhost_idleAngry_0
   - first:
-      213: 1751264627913729902
-    second: fantasyGhost_idle_1
+      213: -5292601277917510338
+    second: romanticGhost_idleAngry_1
   - first:
-      213: -6785038938660638352
-    second: fantasyGhost_idle_2
+      213: 5910553463832441256
+    second: romanticGhost_idleAngry_2
   - first:
-      213: 5815583989474349877
-    second: fantasyGhost_idle_3
+      213: 7258272336589890044
+    second: romanticGhost_idleAngry_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -122,54 +122,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fantasyGhost_idle_0
+      name: romanticGhost_idleAngry_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 30
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c09372d3db2f9dba0800000000000000
-      internalID: -6063548528688940788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_idle_1
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 1
-        width: 27
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e67218686edbd4810800000000000000
-      internalID: 1751264627913729902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fantasyGhost_idle_2
-      rect:
-        serializedVersion: 2
-        x: 56
         y: 1
         width: 31
         height: 35
@@ -181,19 +137,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07170f1b803b6d1a0800000000000000
-      internalID: -6785038938660638352
+      spriteID: 0e152737d4a84cb00800000000000000
+      internalID: 847954695106482656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fantasyGhost_idle_3
+      name: romanticGhost_idleAngry_1
       rect:
         serializedVersion: 2
-        x: 86
+        x: 31
         y: 1
         width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35c2fbdd27ec86b0800000000000000
+      internalID: -5292601277917510338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanticGhost_idleAngry_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 31
         height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -203,8 +181,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 533511e73da15b050800000000000000
-      internalID: 5815583989474349877
+      spriteID: 8a1ffa55f01860250800000000000000
+      internalID: 5910553463832441256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: romanticGhost_idleAngry_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf12c71fb309ab460800000000000000
+      internalID: 7258272336589890044
       vertices: []
       indices: 
       edges: []
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fantasyGhost_idle_0: -6063548528688940788
-      fantasyGhost_idle_1: 1751264627913729902
-      fantasyGhost_idle_2: -6785038938660638352
-      fantasyGhost_idle_3: 5815583989474349877
+      romanticGhost_idleAngry_0: 847954695106482656
+      romanticGhost_idleAngry_1: -5292601277917510338
+      romanticGhost_idleAngry_2: 5910553463832441256
+      romanticGhost_idleAngry_3: 7258272336589890044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

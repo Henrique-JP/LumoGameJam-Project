@@ -1,115 +1,115 @@
 fileFormatVersion: 2
-guid: 3ff899cfbb6ef8f47b0c97e5a13694b1
+guid: 6c72f48c5a5554544b4aa372f69906a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4847417925278533674
-    second: terrorGhost_scary_0
+      213: 3377450970064873497
+    second: terrorGhost_scary 1_0
   - first:
-      213: 8365023525880651854
-    second: terrorGhost_scary_1
+      213: -59478685508762651
+    second: terrorGhost_scary 1_1
   - first:
-      213: -7126883686140206276
-    second: terrorGhost_scary_2
+      213: 6148595993520116660
+    second: terrorGhost_scary 1_2
   - first:
-      213: -8591363206744141909
-    second: terrorGhost_scary_3
+      213: -327109955625732470
+    second: terrorGhost_scary 1_3
   - first:
-      213: -8103156291936869882
-    second: terrorGhost_scary_4
+      213: 6814275105658786549
+    second: terrorGhost_scary 1_4
   - first:
-      213: 8346628061298989260
-    second: terrorGhost_scary_5
+      213: -941880396911089161
+    second: terrorGhost_scary 1_5
   - first:
-      213: 8999793812245362050
-    second: terrorGhost_scary_6
+      213: 4553919891921943574
+    second: terrorGhost_scary 1_6
   - first:
-      213: -8027080106045434404
-    second: terrorGhost_scary_7
+      213: 7267068155603165023
+    second: terrorGhost_scary 1_7
   - first:
-      213: 2342473554608560484
-    second: terrorGhost_scary_8
+      213: -5791596548788184378
+    second: terrorGhost_scary 1_8
   - first:
-      213: 1158480158456557205
-    second: terrorGhost_scary_9
+      213: 3248873306443219854
+    second: terrorGhost_scary 1_9
   - first:
-      213: 1974306140639267054
-    second: terrorGhost_scary_10
+      213: 4990263381037896458
+    second: terrorGhost_scary 1_10
   - first:
-      213: -8204449263208200031
-    second: terrorGhost_scary_11
+      213: -6034408828222828135
+    second: terrorGhost_scary 1_11
   - first:
-      213: -2632042993810691434
-    second: terrorGhost_scary_12
+      213: 8150883532234177816
+    second: terrorGhost_scary 1_12
   - first:
-      213: -7768354954312330568
-    second: terrorGhost_scary_13
+      213: 3466083402189385682
+    second: terrorGhost_scary 1_13
   - first:
-      213: 2450593987370235365
-    second: terrorGhost_scary_14
+      213: -6383157411829692588
+    second: terrorGhost_scary 1_14
   - first:
-      213: 6141014294619307848
-    second: terrorGhost_scary_15
+      213: 1605375276296583289
+    second: terrorGhost_scary 1_15
   - first:
-      213: 3174565182380170538
-    second: terrorGhost_scary_16
+      213: 2468617646213547760
+    second: terrorGhost_scary 1_16
   - first:
-      213: 2083884638483140440
-    second: terrorGhost_scary_17
+      213: 1942280003429435119
+    second: terrorGhost_scary 1_17
   - first:
-      213: 5517829346504925565
-    second: terrorGhost_scary_18
+      213: 8024563214070813867
+    second: terrorGhost_scary 1_18
   - first:
-      213: -3358275438004928607
-    second: terrorGhost_scary_19
+      213: 4906994702708479098
+    second: terrorGhost_scary 1_19
   - first:
-      213: 8275033632589920179
-    second: terrorGhost_scary_20
+      213: 3366573283152816985
+    second: terrorGhost_scary 1_20
   - first:
-      213: -4998643737381908618
-    second: terrorGhost_scary_21
+      213: 1825383519740725441
+    second: terrorGhost_scary 1_21
   - first:
-      213: 9184530666107082582
-    second: terrorGhost_scary_22
+      213: -5675015296233736060
+    second: terrorGhost_scary 1_22
   - first:
-      213: 4845239150930994248
-    second: terrorGhost_scary_23
+      213: -7410212210300836471
+    second: terrorGhost_scary 1_23
   - first:
-      213: -7880737827721207340
-    second: terrorGhost_scary_24
+      213: -2642586419906707321
+    second: terrorGhost_scary 1_24
   - first:
-      213: 738705310032406754
-    second: terrorGhost_scary_25
+      213: 7794760523670291111
+    second: terrorGhost_scary 1_25
   - first:
-      213: -4913708167598696639
-    second: terrorGhost_scary_26
+      213: -7628299648501236597
+    second: terrorGhost_scary 1_26
   - first:
-      213: 1763467990806339519
-    second: terrorGhost_scary_27
+      213: -4753160956711141359
+    second: terrorGhost_scary 1_27
   - first:
-      213: -1718540109039792968
-    second: terrorGhost_scary_28
+      213: 4463190507180851806
+    second: terrorGhost_scary 1_28
   - first:
-      213: -3621985183357134123
-    second: terrorGhost_scary_29
+      213: 8802346117681760312
+    second: terrorGhost_scary 1_29
   - first:
-      213: -6010876174493554707
-    second: terrorGhost_scary_30
+      213: -4473289779648803181
+    second: terrorGhost_scary 1_30
   - first:
-      213: -4050680422516743665
-    second: terrorGhost_scary_31
+      213: -8800399682825330331
+    second: terrorGhost_scary 1_31
   - first:
-      213: -7672450358298710899
-    second: terrorGhost_scary_32
+      213: 1555549452189200858
+    second: terrorGhost_scary 1_32
   - first:
-      213: -1389279628438897112
-    second: terrorGhost_scary_33
+      213: -3612601372085092155
+    second: terrorGhost_scary 1_33
   - first:
-      213: 8332947886938467201
-    second: terrorGhost_scary_34
+      213: -5176837162053250680
+    second: terrorGhost_scary 1_34
   - first:
-      213: 8432192541453096413
-    second: terrorGhost_scary_35
+      213: 8920147505832243662
+    second: terrorGhost_scary 1_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -218,7 +218,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: terrorGhost_scary_0
+      name: terrorGhost_scary 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -233,14 +233,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a28861a9bec754340800000000000000
-      internalID: 4847417925278533674
+      spriteID: 918e30543cd1fde20800000000000000
+      internalID: 3377450970064873497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_1
+      name: terrorGhost_scary 1_1
       rect:
         serializedVersion: 2
         x: 27
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e40e6e5b398861470800000000000000
-      internalID: 8365023525880651854
+      spriteID: 5e30b8e5370bc2ff0800000000000000
+      internalID: -59478685508762651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_2
+      name: terrorGhost_scary 1_2
       rect:
         serializedVersion: 2
         x: 55
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c33261c1c09381d90800000000000000
-      internalID: -7126883686140206276
+      spriteID: 4b3182dba73345550800000000000000
+      internalID: 6148595993520116660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_3
+      name: terrorGhost_scary 1_3
       rect:
         serializedVersion: 2
         x: 85
@@ -299,14 +299,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: baf87a5bea855c880800000000000000
-      internalID: -8591363206744141909
+      spriteID: a863f6c7a3fd57bf0800000000000000
+      internalID: -327109955625732470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_4
+      name: terrorGhost_scary 1_4
       rect:
         serializedVersion: 2
         x: 115
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 602a1abe84ecb8f80800000000000000
-      internalID: -8103156291936869882
+      spriteID: 5f25492ea1b219e50800000000000000
+      internalID: 6814275105658786549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_5
+      name: terrorGhost_scary 1_5
       rect:
         serializedVersion: 2
         x: 115
@@ -343,14 +343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc8980adffd25d370800000000000000
-      internalID: 8346628061298989260
+      spriteID: 7f9e531f4c4cde2f0800000000000000
+      internalID: -941880396911089161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_6
+      name: terrorGhost_scary 1_6
       rect:
         serializedVersion: 2
         x: 149
@@ -365,14 +365,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 285b4ae0ac0b5ec70800000000000000
-      internalID: 8999793812245362050
+      spriteID: 61cb7959306c23f30800000000000000
+      internalID: 4553919891921943574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_7
+      name: terrorGhost_scary 1_7
       rect:
         serializedVersion: 2
         x: 179
@@ -387,14 +387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd59e8f3c251a9090800000000000000
-      internalID: -8027080106045434404
+      spriteID: f5f97452cffc9d460800000000000000
+      internalID: 7267068155603165023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_8
+      name: terrorGhost_scary 1_8
       rect:
         serializedVersion: 2
         x: 208
@@ -409,14 +409,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 46990367943228020800000000000000
-      internalID: 2342473554608560484
+      spriteID: 6ca1a13cf9d10afa0800000000000000
+      internalID: -5791596548788184378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_9
+      name: terrorGhost_scary 1_9
       rect:
         serializedVersion: 2
         x: 236
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59e2424f09fb31010800000000000000
-      internalID: 1158480158456557205
+      spriteID: e830cc61f01561d20800000000000000
+      internalID: 3248873306443219854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_10
+      name: terrorGhost_scary 1_10
       rect:
         serializedVersion: 2
         x: 1
@@ -453,14 +453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee80dae79f4266b10800000000000000
-      internalID: 1974306140639267054
+      spriteID: a0357620b1af04540800000000000000
+      internalID: 4990263381037896458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_11
+      name: terrorGhost_scary 1_11
       rect:
         serializedVersion: 2
         x: 28
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a882c83dd0f32e80800000000000000
-      internalID: -8204449263208200031
+      spriteID: 9911c447429714ca0800000000000000
+      internalID: -6034408828222828135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_12
+      name: terrorGhost_scary 1_12
       rect:
         serializedVersion: 2
         x: 56
@@ -497,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69aab50a7da197bd0800000000000000
-      internalID: -2632042993810691434
+      spriteID: 81d36682361cd1170800000000000000
+      internalID: 8150883532234177816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_13
+      name: terrorGhost_scary 1_13
       rect:
         serializedVersion: 2
         x: 85
@@ -519,14 +519,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b2511bd352413490800000000000000
-      internalID: -7768354954312330568
+      spriteID: 2df206d7d700a1030800000000000000
+      internalID: 3466083402189385682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_14
+      name: terrorGhost_scary 1_14
       rect:
         serializedVersion: 2
         x: 115
@@ -541,14 +541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e539e96f32420220800000000000000
-      internalID: 2450593987370235365
+      spriteID: 4574d7247287a67a0800000000000000
+      internalID: -6383157411829692588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_15
+      name: terrorGhost_scary 1_15
       rect:
         serializedVersion: 2
         x: 149
@@ -563,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84f3167e6f3493550800000000000000
-      internalID: 6141014294619307848
+      spriteID: 9783ad2ee40774610800000000000000
+      internalID: 1605375276296583289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_16
+      name: terrorGhost_scary 1_16
       rect:
         serializedVersion: 2
         x: 179
@@ -585,14 +585,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2dd71cb6325e0c20800000000000000
-      internalID: 3174565182380170538
+      spriteID: 0f6c1d08baa424220800000000000000
+      internalID: 2468617646213547760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_17
+      name: terrorGhost_scary 1_17
       rect:
         serializedVersion: 2
         x: 209
@@ -607,14 +607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85f4eada9027bec10800000000000000
-      internalID: 2083884638483140440
+      spriteID: fe681ca5f5d54fa10800000000000000
+      internalID: 1942280003429435119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_18
+      name: terrorGhost_scary 1_18
       rect:
         serializedVersion: 2
         x: 237
@@ -629,14 +629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d71e6a15e84439c40800000000000000
-      internalID: 5517829346504925565
+      spriteID: ba49b5c2ab9fc5f60800000000000000
+      internalID: 8024563214070813867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_19
+      name: terrorGhost_scary 1_19
       rect:
         serializedVersion: 2
         x: 1
@@ -651,14 +651,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1affbc338420561d0800000000000000
-      internalID: -3358275438004928607
+      spriteID: a7499a90fa5291440800000000000000
+      internalID: 4906994702708479098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_20
+      name: terrorGhost_scary 1_20
       rect:
         serializedVersion: 2
         x: 30
@@ -673,14 +673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b7beeeee33d6d270800000000000000
-      internalID: 8275033632589920179
+      spriteID: 95be4ac609878be20800000000000000
+      internalID: 3366573283152816985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_21
+      name: terrorGhost_scary 1_21
       rect:
         serializedVersion: 2
         x: 58
@@ -695,14 +695,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67fce9a310041aab0800000000000000
-      internalID: -4998643737381908618
+      spriteID: 1c88ff0d3a0155910800000000000000
+      internalID: 1825383519740725441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_22
+      name: terrorGhost_scary 1_22
       rect:
         serializedVersion: 2
         x: 86
@@ -717,14 +717,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6579ef5aaf1067f70800000000000000
-      internalID: 9184530666107082582
+      spriteID: 4887415d7ab4e31b0800000000000000
+      internalID: -5675015296233736060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_23
+      name: terrorGhost_scary 1_23
       rect:
         serializedVersion: 2
         x: 142
@@ -739,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 844ae0b265fbd3340800000000000000
-      internalID: 4845239150930994248
+      spriteID: 985a1c67143a92990800000000000000
+      internalID: -7410212210300836471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_24
+      name: terrorGhost_scary 1_24
       rect:
         serializedVersion: 2
         x: 170
@@ -761,14 +761,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d1a1ba13bef1a290800000000000000
-      internalID: -7880737827721207340
+      spriteID: 7808031f6a5a35bd0800000000000000
+      internalID: -2642586419906707321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_25
+      name: terrorGhost_scary 1_25
       rect:
         serializedVersion: 2
         x: 198
@@ -783,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e82d2ec098604a00800000000000000
-      internalID: 738705310032406754
+      spriteID: 7a20b9ad56d8c2c60800000000000000
+      internalID: 7794760523670291111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_26
+      name: terrorGhost_scary 1_26
       rect:
         serializedVersion: 2
         x: 225
@@ -805,14 +805,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 147185c94700fcbb0800000000000000
-      internalID: -4913708167598696639
+      spriteID: b8cb8dad2e5d22690800000000000000
+      internalID: -7628299648501236597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_27
+      name: terrorGhost_scary 1_27
       rect:
         serializedVersion: 2
         x: 7
@@ -827,14 +827,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbf98cc5bc8197810800000000000000
-      internalID: 1763467990806339519
+      spriteID: 1100afe0b41690eb0800000000000000
+      internalID: -4753160956711141359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_28
+      name: terrorGhost_scary 1_28
       rect:
         serializedVersion: 2
         x: 35
@@ -849,14 +849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8bc0c6440e48628e0800000000000000
-      internalID: -1718540109039792968
+      spriteID: e5209698e1070fd30800000000000000
+      internalID: 4463190507180851806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_29
+      name: terrorGhost_scary 1_29
       rect:
         serializedVersion: 2
         x: 62
@@ -871,14 +871,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5da15447aaf1cbdc0800000000000000
-      internalID: -3621985183357134123
+      spriteID: 838c57e3827382a70800000000000000
+      internalID: 8802346117681760312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_30
+      name: terrorGhost_scary 1_30
       rect:
         serializedVersion: 2
         x: 90
@@ -893,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de7e37e57f3159ca0800000000000000
-      internalID: -6010876174493554707
+      spriteID: 39ec5aa55aeabe1c0800000000000000
+      internalID: -4473289779648803181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_31
+      name: terrorGhost_scary 1_31
       rect:
         serializedVersion: 2
         x: 118
@@ -915,14 +915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f02a24dfd9719c7c0800000000000000
-      internalID: -4050680422516743665
+      spriteID: 5616cbf6d13bed580800000000000000
+      internalID: -8800399682825330331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_32
+      name: terrorGhost_scary 1_32
       rect:
         serializedVersion: 2
         x: 146
@@ -937,14 +937,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8c69ccac0bf58590800000000000000
-      internalID: -7672450358298710899
+      spriteID: ad17a403cfb669510800000000000000
+      internalID: 1555549452189200858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_33
+      name: terrorGhost_scary 1_33
       rect:
         serializedVersion: 2
         x: 174
@@ -959,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82e7635e98948bce0800000000000000
-      internalID: -1389279628438897112
+      spriteID: 5c087c541367dddc0800000000000000
+      internalID: -3612601372085092155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_34
+      name: terrorGhost_scary 1_34
       rect:
         serializedVersion: 2
         x: 202
@@ -981,14 +981,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18b2fcc04f394a370800000000000000
-      internalID: 8332947886938467201
+      spriteID: 88156c7770e2828b0800000000000000
+      internalID: -5176837162053250680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: terrorGhost_scary_35
+      name: terrorGhost_scary 1_35
       rect:
         serializedVersion: 2
         x: 230
@@ -1003,8 +1003,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd59207d07a250570800000000000000
-      internalID: 8432192541453096413
+      spriteID: ec1b73545eabacb70800000000000000
+      internalID: 8920147505832243662
       vertices: []
       indices: 
       edges: []
@@ -1023,42 +1023,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      terrorGhost_scary_0: 4847417925278533674
-      terrorGhost_scary_1: 8365023525880651854
-      terrorGhost_scary_10: 1974306140639267054
-      terrorGhost_scary_11: -8204449263208200031
-      terrorGhost_scary_12: -2632042993810691434
-      terrorGhost_scary_13: -7768354954312330568
-      terrorGhost_scary_14: 2450593987370235365
-      terrorGhost_scary_15: 6141014294619307848
-      terrorGhost_scary_16: 3174565182380170538
-      terrorGhost_scary_17: 2083884638483140440
-      terrorGhost_scary_18: 5517829346504925565
-      terrorGhost_scary_19: -3358275438004928607
-      terrorGhost_scary_2: -7126883686140206276
-      terrorGhost_scary_20: 8275033632589920179
-      terrorGhost_scary_21: -4998643737381908618
-      terrorGhost_scary_22: 9184530666107082582
-      terrorGhost_scary_23: 4845239150930994248
-      terrorGhost_scary_24: -7880737827721207340
-      terrorGhost_scary_25: 738705310032406754
-      terrorGhost_scary_26: -4913708167598696639
-      terrorGhost_scary_27: 1763467990806339519
-      terrorGhost_scary_28: -1718540109039792968
-      terrorGhost_scary_29: -3621985183357134123
-      terrorGhost_scary_3: -8591363206744141909
-      terrorGhost_scary_30: -6010876174493554707
-      terrorGhost_scary_31: -4050680422516743665
-      terrorGhost_scary_32: -7672450358298710899
-      terrorGhost_scary_33: -1389279628438897112
-      terrorGhost_scary_34: 8332947886938467201
-      terrorGhost_scary_35: 8432192541453096413
-      terrorGhost_scary_4: -8103156291936869882
-      terrorGhost_scary_5: 8346628061298989260
-      terrorGhost_scary_6: 8999793812245362050
-      terrorGhost_scary_7: -8027080106045434404
-      terrorGhost_scary_8: 2342473554608560484
-      terrorGhost_scary_9: 1158480158456557205
+      terrorGhost_scary 1_0: 3377450970064873497
+      terrorGhost_scary 1_1: -59478685508762651
+      terrorGhost_scary 1_10: 4990263381037896458
+      terrorGhost_scary 1_11: -6034408828222828135
+      terrorGhost_scary 1_12: 8150883532234177816
+      terrorGhost_scary 1_13: 3466083402189385682
+      terrorGhost_scary 1_14: -6383157411829692588
+      terrorGhost_scary 1_15: 1605375276296583289
+      terrorGhost_scary 1_16: 2468617646213547760
+      terrorGhost_scary 1_17: 1942280003429435119
+      terrorGhost_scary 1_18: 8024563214070813867
+      terrorGhost_scary 1_19: 4906994702708479098
+      terrorGhost_scary 1_2: 6148595993520116660
+      terrorGhost_scary 1_20: 3366573283152816985
+      terrorGhost_scary 1_21: 1825383519740725441
+      terrorGhost_scary 1_22: -5675015296233736060
+      terrorGhost_scary 1_23: -7410212210300836471
+      terrorGhost_scary 1_24: -2642586419906707321
+      terrorGhost_scary 1_25: 7794760523670291111
+      terrorGhost_scary 1_26: -7628299648501236597
+      terrorGhost_scary 1_27: -4753160956711141359
+      terrorGhost_scary 1_28: 4463190507180851806
+      terrorGhost_scary 1_29: 8802346117681760312
+      terrorGhost_scary 1_3: -327109955625732470
+      terrorGhost_scary 1_30: -4473289779648803181
+      terrorGhost_scary 1_31: -8800399682825330331
+      terrorGhost_scary 1_32: 1555549452189200858
+      terrorGhost_scary 1_33: -3612601372085092155
+      terrorGhost_scary 1_34: -5176837162053250680
+      terrorGhost_scary 1_35: 8920147505832243662
+      terrorGhost_scary 1_4: 6814275105658786549
+      terrorGhost_scary 1_5: -941880396911089161
+      terrorGhost_scary 1_6: 4553919891921943574
+      terrorGhost_scary 1_7: 7267068155603165023
+      terrorGhost_scary 1_8: -5791596548788184378
+      terrorGhost_scary 1_9: 3248873306443219854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
