@@ -119,43 +119,49 @@ public class PlayerMovement : MonoBehaviour
 
             if (input.x > 0)
             {
-                GetComponent<SpriteRenderer>().flipX = true; //invertido pq tá com problema na animação de andar para direita, a personagem parece que tá andando ao contrério, caso resolvido, inverter true por false
+                GetComponent<SpriteRenderer>().flipX = false;
             }
             else if (input.x < 0)
             {
-                GetComponent<SpriteRenderer>().flipX = false;
+                GetComponent<SpriteRenderer>().flipX = true;
             }
         }
 
-        if(input.y > 0 && input.x == 0)
+        //cima
+        if (input.y > 0 && input.x == 0)
         {
             ResetLayers();
             anim.SetLayerWeight(2, 1);
         }
-        else if(input.y < 0 && input.x == 0)
+        //baixo
+        else if (input.y < 0 && input.x == 0)
         {
             ResetLayers();
             anim.SetLayerWeight(0, 1);
         }
-        else if(input.y > 0 && input.x < 0)
+        //cima e esquerda
+        else if (input.y > 0 && input.x < 0)
         {
-            // ResetLayers();
-            // anim.SetLayerWeight(1, 1);
+            ResetLayers();
+            anim.SetLayerWeight(3, 1);
         }
-        else if(input.y > 0 && input.x > 0)
+        //cima e direita
+        else if (input.y > 0 && input.x > 0)
         {
-            // ResetLayers();
-            // anim.SetLayerWeight(1, 1);
+            ResetLayers();
+            anim.SetLayerWeight(3, 1);
         }
-        else if(input.y < 0 && input.x > 0)
+        //baixo e esquerda
+        else if (input.y < 0 && input.x < 0)
         {
-            // ResetLayers();
-            // anim.SetLayerWeight(2, 1);
+            ResetLayers();
+            anim.SetLayerWeight(4, 1);
         }
-        else if(input.y < 0)
+        //baixo e direita
+        else if (input.y < 0 && input.x > 0)
         {
-            // ResetLayers();
-            // anim.SetLayerWeight(0, 1);
+            ResetLayers();
+            anim.SetLayerWeight(4, 1);
         }
 
         if (input != Vector2.zero)
@@ -180,5 +186,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetLayerWeight(0, 0);
         anim.SetLayerWeight(1, 0);
         anim.SetLayerWeight(2, 0);
+        anim.SetLayerWeight(3, 0);
+        anim.SetLayerWeight(4, 0);
     }
 }

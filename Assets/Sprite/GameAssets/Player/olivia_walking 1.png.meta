@@ -1,0 +1,1794 @@
+fileFormatVersion: 2
+guid: 5ff070489d97bea4987166ccfa3f5d9a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7663684430164180354
+    second: olivia_walking_0
+  - first:
+      213: 4019556337316889541
+    second: olivia_walking_1
+  - first:
+      213: -2869610219987641491
+    second: olivia_walking_2
+  - first:
+      213: 200560986224748783
+    second: olivia_walking_3
+  - first:
+      213: -7892315796931655788
+    second: olivia_walking_4
+  - first:
+      213: 7404513241399048280
+    second: olivia_walking_5
+  - first:
+      213: -5854972296549084549
+    second: olivia_walking_6
+  - first:
+      213: -9152364996793937918
+    second: olivia_walking_7
+  - first:
+      213: -1372802893090130298
+    second: olivia_walking_8
+  - first:
+      213: 3261498978460903178
+    second: olivia_walking_9
+  - first:
+      213: 2066033351768088048
+    second: olivia_walking_10
+  - first:
+      213: 805400327714934551
+    second: olivia_walking_11
+  - first:
+      213: 5518821815182208510
+    second: olivia_walking_12
+  - first:
+      213: -3829396146184103621
+    second: olivia_walking_13
+  - first:
+      213: -4805526990885643769
+    second: olivia_walking_14
+  - first:
+      213: -3282532307454812459
+    second: olivia_walking_15
+  - first:
+      213: -3857252898522583373
+    second: olivia_walking_16
+  - first:
+      213: -3032209311835536511
+    second: olivia_walking_17
+  - first:
+      213: 8727731182826025389
+    second: olivia_walking_18
+  - first:
+      213: -938475115069892437
+    second: olivia_walking_19
+  - first:
+      213: -4232318079259532257
+    second: olivia_walking_20
+  - first:
+      213: -8087052414874193888
+    second: olivia_walking_21
+  - first:
+      213: 8448845181566667815
+    second: olivia_walking_22
+  - first:
+      213: 7220401131697572075
+    second: olivia_walking_23
+  - first:
+      213: -8934705226239131903
+    second: olivia_walking_24
+  - first:
+      213: 8675712767868541097
+    second: olivia_walking_25
+  - first:
+      213: 1881896905445260047
+    second: olivia_walking_26
+  - first:
+      213: -4302495514659364432
+    second: olivia_walking_27
+  - first:
+      213: -599758950719411615
+    second: olivia_walking_28
+  - first:
+      213: -5388236586090213075
+    second: olivia_walking_29
+  - first:
+      213: -1121017274614015949
+    second: olivia_walking_30
+  - first:
+      213: -222012976686858353
+    second: olivia_walking_31
+  - first:
+      213: 2248754836093194947
+    second: olivia_walking_32
+  - first:
+      213: 6674008601199629756
+    second: olivia_walking_33
+  - first:
+      213: 8776208173229589450
+    second: olivia_walking_34
+  - first:
+      213: -4884671303111716883
+    second: olivia_walking_35
+  - first:
+      213: 5952918447685915812
+    second: olivia_walking_36
+  - first:
+      213: 115123854719602596
+    second: olivia_walking_37
+  - first:
+      213: -1157782469291930620
+    second: olivia_walking_38
+  - first:
+      213: 3420452450010472705
+    second: olivia_walking_39
+  - first:
+      213: 6370825922530383909
+    second: olivia_walking_40
+  - first:
+      213: -2119147452515616189
+    second: olivia_walking_41
+  - first:
+      213: -3442196342735366147
+    second: olivia_walking_42
+  - first:
+      213: 6492522409310455414
+    second: olivia_walking_43
+  - first:
+      213: -1080986715176918770
+    second: olivia_walking_44
+  - first:
+      213: 4290890438818412001
+    second: olivia_walking_45
+  - first:
+      213: 4208078225046142972
+    second: olivia_walking_46
+  - first:
+      213: -4766569992328648713
+    second: olivia_walking_47
+  - first:
+      213: -9219231914154423908
+    second: olivia_walking_48
+  - first:
+      213: 6898646394879154302
+    second: olivia_walking_49
+  - first:
+      213: -5502908313026832973
+    second: olivia_walking_50
+  - first:
+      213: -5481914593106441288
+    second: olivia_walking_51
+  - first:
+      213: -2723655100901606830
+    second: olivia_walking_52
+  - first:
+      213: -7840846114816412741
+    second: olivia_walking_53
+  - first:
+      213: -4762509796803474123
+    second: olivia_walking_54
+  - first:
+      213: -8991822612552086449
+    second: olivia_walking_55
+  - first:
+      213: 7849546962568669410
+    second: olivia_walking_56
+  - first:
+      213: -2571263422955824216
+    second: olivia_walking_57
+  - first:
+      213: -6117557266855711064
+    second: olivia_walking_58
+  - first:
+      213: 152087559173981336
+    second: olivia_walking_59
+  - first:
+      213: -5524937163326081772
+    second: olivia_walking_60
+  - first:
+      213: 6202110955295606258
+    second: olivia_walking_61
+  - first:
+      213: -1053622795404736549
+    second: olivia_walking_62
+  - first:
+      213: 5352183674469492558
+    second: olivia_walking_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: olivia_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e724f5d5d9f15a590800000000000000
+      internalID: -7663684430164180354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c38178313558c730800000000000000
+      internalID: 4019556337316889541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b5ec175b81d28d0800000000000000
+      internalID: -2869610219987641491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86ab3872988c200800000000000000
+      internalID: 200560986224748783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 261
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4974fa4199cd87290800000000000000
+      internalID: -7892315796931655788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8583440ff8d12c660800000000000000
+      internalID: 7404513241399048280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72507e97b5febea0800000000000000
+      internalID: -5854972296549084549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200d067d6844cf080800000000000000
+      internalID: -9152364996793937918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686fbbaca03d2fce0800000000000000
+      internalID: -1372802893090130298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07267e6a0c234d20800000000000000
+      internalID: 3261498978460903178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd1f3a13660cac10800000000000000
+      internalID: 2066033351768088048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 262
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f8e63b45b5d2b00800000000000000
+      internalID: 805400327714934551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 228
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdac90733bc69c40800000000000000
+      internalID: 5518821815182208510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 261
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39527a7e704bdac0800000000000000
+      internalID: -3829396146184103621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 228
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a95bd99a65f4db0800000000000000
+      internalID: -4805526990885643769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de996a024a1272d0800000000000000
+      internalID: -3282532307454812459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be27b6ece8487ac0800000000000000
+      internalID: -3857252898522583373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_17
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 228
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183496b32bd6be5d0800000000000000
+      internalID: -3032209311835536511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 195
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1f17fe4412f1970800000000000000
+      internalID: 8727731182826025389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba817b7eaddd9f2f0800000000000000
+      internalID: -938475115069892437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14a5457129c345c0800000000000000
+      internalID: -4232318079259532257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020757bfca405cf80800000000000000
+      internalID: -8087052414874193888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_22
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 195
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c4d81cde3504570800000000000000
+      internalID: 8448845181566667815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_23
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 195
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be889aee294043460800000000000000
+      internalID: 7220401131697572075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fb0315fec810480800000000000000
+      internalID: -8934705226239131903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a81026ebc2566870800000000000000
+      internalID: 8675712767868541097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_26
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 162
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bb8f8c347dd1a10800000000000000
+      internalID: 1881896905445260047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_27
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1640100277a44c0800000000000000
+      internalID: -4302495514659364432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_28
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 129
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a2287796a3da7f0800000000000000
+      internalID: -599758950719411615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_29
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2154508f532935b0800000000000000
+      internalID: -5388236586090213075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_30
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3381e876ab85170f0800000000000000
+      internalID: -1121017274614015949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_31
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f7d0dbf504becf0800000000000000
+      internalID: -222012976686858353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_32
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2d648eb9e253f10800000000000000
+      internalID: 2248754836093194947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_33
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d76e5677de9c50800000000000000
+      internalID: 6674008601199629756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_34
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 162
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3ca30d5da5bc970800000000000000
+      internalID: 8776208173229589450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_35
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def4b757459263cb0800000000000000
+      internalID: -4884671303111716883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4503bc9c30d9250800000000000000
+      internalID: 5952918447685915812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_37
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 129
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4cb13980099100800000000000000
+      internalID: 115123854719602596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_38
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 162
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c0ea67afabeefe0800000000000000
+      internalID: -1157782469291930620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 129
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1012df58163e77f20800000000000000
+      internalID: 3420452450010472705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52816462c68b96850800000000000000
+      internalID: 6370825922530383909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34af122ae964792e0800000000000000
+      internalID: -2119147452515616189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_42
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 96
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df71c10f9acda30d0800000000000000
+      internalID: -3442196342735366147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_43
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676863f7bb21a1a50800000000000000
+      internalID: 6492522409310455414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_44
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01a6f25f409ff0f0800000000000000
+      internalID: -1080986715176918770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 63
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e534e7be1e4c8b30800000000000000
+      internalID: 4290890438818412001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff7eeea9d8166a30800000000000000
+      internalID: 4208078225046142972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_47
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7e63aa8ddb9ddb0800000000000000
+      internalID: -4766569992328648713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_48
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9981ee6b65be0080800000000000000
+      internalID: -9219231914154423908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_49
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e781dc5785aecbf50800000000000000
+      internalID: 6898646394879154302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_50
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5dd728b0eb1a3b0800000000000000
+      internalID: -5502908313026832973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_51
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb4cd4d8b35ce3b0800000000000000
+      internalID: -5481914593106441288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a3414cd12a33ad0800000000000000
+      internalID: -2723655100901606830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_53
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 63
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3bddb4008bf2390800000000000000
+      internalID: -7840846114816412741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_54
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 96
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d063a929a28edb0800000000000000
+      internalID: -4762509796803474123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_55
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c028f79f0a63380800000000000000
+      internalID: -8991822612552086449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_56
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8e6afaf513fec60800000000000000
+      internalID: 7849546962568669410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_57
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 30
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab53ca3a89015cd0800000000000000
+      internalID: -2571263422955824216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_58
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aea4f7f3121a1ba0800000000000000
+      internalID: -6117557266855711064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_59
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894425b44d25c1200800000000000000
+      internalID: 152087559173981336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_60
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415389d1cea7353b0800000000000000
+      internalID: -5524937163326081772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_61
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 30
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f504fbbd03521650800000000000000
+      internalID: 6202110955295606258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd785a066a7c061f0800000000000000
+      internalID: -1053622795404736549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: olivia_walking_63
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 30
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e472661e1b6c64a40800000000000000
+      internalID: 5352183674469492558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      olivia_walking_0: -7663684430164180354
+      olivia_walking_1: 4019556337316889541
+      olivia_walking_10: 2066033351768088048
+      olivia_walking_11: 805400327714934551
+      olivia_walking_12: 5518821815182208510
+      olivia_walking_13: -3829396146184103621
+      olivia_walking_14: -4805526990885643769
+      olivia_walking_15: -3282532307454812459
+      olivia_walking_16: -3857252898522583373
+      olivia_walking_17: -3032209311835536511
+      olivia_walking_18: 8727731182826025389
+      olivia_walking_19: -938475115069892437
+      olivia_walking_2: -2869610219987641491
+      olivia_walking_20: -4232318079259532257
+      olivia_walking_21: -8087052414874193888
+      olivia_walking_22: 8448845181566667815
+      olivia_walking_23: 7220401131697572075
+      olivia_walking_24: -8934705226239131903
+      olivia_walking_25: 8675712767868541097
+      olivia_walking_26: 1881896905445260047
+      olivia_walking_27: -4302495514659364432
+      olivia_walking_28: -599758950719411615
+      olivia_walking_29: -5388236586090213075
+      olivia_walking_3: 200560986224748783
+      olivia_walking_30: -1121017274614015949
+      olivia_walking_31: -222012976686858353
+      olivia_walking_32: 2248754836093194947
+      olivia_walking_33: 6674008601199629756
+      olivia_walking_34: 8776208173229589450
+      olivia_walking_35: -4884671303111716883
+      olivia_walking_36: 5952918447685915812
+      olivia_walking_37: 115123854719602596
+      olivia_walking_38: -1157782469291930620
+      olivia_walking_39: 3420452450010472705
+      olivia_walking_4: -7892315796931655788
+      olivia_walking_40: 6370825922530383909
+      olivia_walking_41: -2119147452515616189
+      olivia_walking_42: -3442196342735366147
+      olivia_walking_43: 6492522409310455414
+      olivia_walking_44: -1080986715176918770
+      olivia_walking_45: 4290890438818412001
+      olivia_walking_46: 4208078225046142972
+      olivia_walking_47: -4766569992328648713
+      olivia_walking_48: -9219231914154423908
+      olivia_walking_49: 6898646394879154302
+      olivia_walking_5: 7404513241399048280
+      olivia_walking_50: -5502908313026832973
+      olivia_walking_51: -5481914593106441288
+      olivia_walking_52: -2723655100901606830
+      olivia_walking_53: -7840846114816412741
+      olivia_walking_54: -4762509796803474123
+      olivia_walking_55: -8991822612552086449
+      olivia_walking_56: 7849546962568669410
+      olivia_walking_57: -2571263422955824216
+      olivia_walking_58: -6117557266855711064
+      olivia_walking_59: 152087559173981336
+      olivia_walking_6: -5854972296549084549
+      olivia_walking_60: -5524937163326081772
+      olivia_walking_61: 6202110955295606258
+      olivia_walking_62: -1053622795404736549
+      olivia_walking_63: 5352183674469492558
+      olivia_walking_7: -9152364996793937918
+      olivia_walking_8: -1372802893090130298
+      olivia_walking_9: 3261498978460903178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
