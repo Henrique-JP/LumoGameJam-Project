@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2185770342138472286}
+  - component: {fileID: -1684849790397391575}
   - component: {fileID: 516973238620489050}
   - component: {fileID: 6012211118682055308}
   - component: {fileID: 7619857893213607257}
@@ -36,6 +37,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &-1684849790397391575
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3518046532476453743}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be9cb448eeed13f4185ee1065b3fae2f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &516973238620489050
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -167,8 +190,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  fleeDistance: 5
-  defaultDirectionChangeInterval: 5
+  evadeSpeedMultiplier: 1.5
+  detectionRadius: 5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  waypoints: []
+  waypointDecisionDelay: 0.5
+  currentState: 0
+  obstacleDetectionDistance: 1.5
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &8291201925596957151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f2efb9aef731d24aaf6c2e1cd3d352c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghostGenre: 0
+  ghostGenre: 1
   timeToCapture: 3
   startColor: {r: 1, g: 1, b: 1, a: 1}
   captureEffect: {fileID: 0}

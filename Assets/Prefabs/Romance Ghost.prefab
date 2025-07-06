@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5088217506531537813}
+  - component: {fileID: 6612620206914692601}
   - component: {fileID: 992102410886327419}
   - component: {fileID: 4925644978471869383}
   - component: {fileID: 1716927412033611031}
@@ -36,6 +37,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &6612620206914692601
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692124361476128423}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8f3dc11373f7614c85adb06b71226c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &992102410886327419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -106,7 +129,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -167,12 +190,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  fleeDistance: 5
-  defaultDirectionChangeInterval: 3
+  evadeSpeedMultiplier: 1.5
+  detectionRadius: 5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  waypoints: []
+  waypointDecisionDelay: 0.5
+  currentState: 0
+  obstacleDetectionDistance: 1.5
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
   fastSpeedMultiplier: 4
   fastDuration: 5
   stunDuration: 10
-  normalSprite: {fileID: 847954695106482656, guid: 5994945d3c7332f48a9d97a7d5aa3899, type: 3}
   stunnedSprite: {fileID: 7472908737858503651, guid: fd54338b8e3fee3469ad2de7e2c7250e, type: 3}
 --- !u!114 &6799418026321274922
 MonoBehaviour:
@@ -188,5 +220,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghostGenre: 3
   timeToCapture: 3
-  startColor: {r: 1, g: 0, b: 0, a: 1}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
   captureEffect: {fileID: 0}

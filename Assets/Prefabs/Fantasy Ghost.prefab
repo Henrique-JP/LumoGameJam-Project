@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 732236437305401080}
+  - component: {fileID: 4756344171686502694}
   - component: {fileID: 1459521244515799750}
   - component: {fileID: 576864249274755420}
   - component: {fileID: 7776945578200693589}
@@ -36,6 +37,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4756344171686502694
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2541938583576182486}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e6793085faf69e04f905b7c14ae7ddfe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1459521244515799750
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -106,7 +129,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -167,11 +190,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  fleeDistance: 5
-  defaultDirectionChangeInterval: 3
+  evadeSpeedMultiplier: 1.5
+  detectionRadius: 5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  waypoints: []
+  waypointDecisionDelay: 0.5
+  currentState: 0
+  obstacleDetectionDistance: 1.5
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 128
   teleportInterval: 30
-  teleportAreaCenter: {x: -20.7, y: -0.04}
-  teleportAreaSize: {x: 17.8, y: 12.1}
 --- !u!114 &8215009629954422397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,5 +217,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghostGenre: 2
   timeToCapture: 3
-  startColor: {r: 0.036712356, g: 0.7075472, b: 0.07532239, a: 1}
+  startColor: {r: 1, g: 1, b: 1, a: 1}
   captureEffect: {fileID: 0}

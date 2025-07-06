@@ -10,6 +10,7 @@ public class LeverController : MonoBehaviour
     public Collider2D doorCollider; // O collider da porta que será desativado
     public Sprite LeverDesableSprite;
     public Sprite DoorDesableSprite;
+    public GameObject GhostRomance;
 
     [Header("Configurações da Câmera")]
     public CinemachineCamera playerFollowVCam; // A VCam que segue o jogador
@@ -22,12 +23,12 @@ public class LeverController : MonoBehaviour
     private DarkRoomTrigger darkRoomTrigger;
 
     //------------Adicionado-------------
-    [Header("Ações do Spawner")]
-    [Tooltip("O spawner de fantasmas que esta alavanca vai controlar.")]
-    public GhostSpawner ghostSpawnerToActivate;
+    // [Header("Ações do Spawner")]
+    // [Tooltip("O spawner de fantasmas que esta alavanca vai controlar.")]
+    // public GhostSpawner ghostSpawnerToActivate;
 
-    [Tooltip("Quantos fantasmas devem ser criados instantaneamente ao ativar a alavanca.")]
-    public int initialGhostsToSpawn = 3;
+    // [Tooltip("Quantos fantasmas devem ser criados instantaneamente ao ativar a alavanca.")]
+    // public int initialGhostsToSpawn = 3;
     void Start()
     {
         // Inicializa o GameManager
@@ -75,14 +76,14 @@ public class LeverController : MonoBehaviour
         Debug.Log("Alavanca ativada!");
 
         //---TRECHO ADICIONADO PARA O SPAWNER DE FANTASMAS---
-        if (ghostSpawnerToActivate != null)
-        {
-            //Manda criar os fantasmas iniciais imediatamente
-            ghostSpawnerToActivate.SpawnImmediate(initialGhostsToSpawn);
+        // if (ghostSpawnerToActivate != null)
+        // {
+        //     //Manda criar os fantasmas iniciais imediatamente
+        //     ghostSpawnerToActivate.SpawnImmediate(initialGhostsToSpawn);
 
-            //Depois, inicia o spawn continuo
-            ghostSpawnerToActivate.StartSpawning();
-        }
+        //     //Depois, inicia o spawn continuo
+        //     ghostSpawnerToActivate.StartSpawning();
+        // }
 
         // Inicia a rotina para abrir a porta e mudar a câmera
         StartCoroutine(OpenDoorAndSwitchCamera());
@@ -117,6 +118,7 @@ public class LeverController : MonoBehaviour
                     doorCollider.enabled = false; // Desativa o collider da porta
                     doorObjects[0].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite; // Altera o sprite da porta para indicar que foi desativada
                     doorObjects[1].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite;
+                    GhostRomance.GetComponent<RomanceGhost_AI>().enabled = true; // Ativa o script do fantasma RomanceGhost_AI
                 }
             }
         }

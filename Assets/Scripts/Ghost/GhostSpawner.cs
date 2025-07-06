@@ -2,37 +2,37 @@ using UnityEngine;
 
 public class GhostSpawner : MonoBehaviour
 {
-    [Header("Configurações do Fantasma")]
-    [Tooltip("O Prefab do fantasma que este spawner irá criar.")]
+    [Header("Configuraï¿½ï¿½es do Fantasma")]
+    [Tooltip("O Prefab do fantasma que este spawner irï¿½ criar.")]
     [SerializeField] private GameObject ghostPrefab;
 
     [Header("Controle de Spawn")]
-    [Tooltip("Marque para o spawner começar a funcionar automaticamente.")]
+    [Tooltip("Marque para o spawner comeï¿½ar a funcionar automaticamente.")]
     [SerializeField] private bool startAutomatically = true;
 
     [Tooltip("O intervalo em segundos entre cada tentativa de spawn.")]
     [SerializeField] private float spawnInterval = 10f;
 
     [Header("1. Limite de Ativos na Cena")]
-    [Tooltip("O número máximo de fantasmas que podem existir na cena ao mesmo tempo. Use -1 para não ter limite de ativos.")]
+    [Tooltip("O nï¿½mero mï¿½ximo de fantasmas que podem existir na cena ao mesmo tempo. Use -1 para nï¿½o ter limite de ativos.")]
     [SerializeField] private int maxActiveGhosts = 5;
 
     [Header("2. Limite Total de Spawns")]
-    [Tooltip("O número TOTAL de fantasmas que o spawner pode criar. Use -1 para spawns infinitos.")]
+    [Tooltip("O nï¿½mero TOTAL de fantasmas que o spawner pode criar. Use -1 para spawns infinitos.")]
     [SerializeField] private int totalSpawnLimit = 20;
 
-    [Header("Comportamento Pós-Spawn")]
-    [Tooltip("Opcional: Ponto para onde os fantasmas irão imediatamente após serem criados.")]
+    [Header("Comportamento Pï¿½s-Spawn")]
+    [Tooltip("Opcional: Ponto para onde os fantasmas irï¿½o imediatamente apï¿½s serem criados.")]
     [SerializeField] private Transform initialTargetPoint;
 
-    private int spawnedCount = 0; // Conta quantos já foram criados no total
+    private int spawnedCount = 0; // Conta quantos jï¿½ foram criados no total
     private bool isSpawning = false;
 
     void Start()
     {
         if (ghostPrefab == null)
         {
-            Debug.LogError("O Prefab do fantasma não foi atribuído no GhostSpawner!", this);
+            Debug.LogError("O Prefab do fantasma nï¿½o foi atribuï¿½do no GhostSpawner!", this);
             return;
         }
 
@@ -60,31 +60,31 @@ public class GhostSpawner : MonoBehaviour
 
     private void TrySpawnGhost()
     {
-        // --- LÓGICA COM DUPLA VERIFICAÇÃO ---
+        // --- Lï¿½GICA COM DUPLA VERIFICAï¿½ï¿½O ---
 
-        // 1. Verifica o limite TOTAL. Se já atingiu, desativa o spawner para sempre.
+        // 1. Verifica o limite TOTAL. Se jï¿½ atingiu, desativa o spawner para sempre.
         bool totalLimitReached = (totalSpawnLimit != -1 && spawnedCount >= totalSpawnLimit);
         if (totalLimitReached)
         {
             Debug.Log($"Limite total de {totalSpawnLimit} fantasmas atingido. Desativando spawner permanentemente.");
             StopSpawning();
             this.enabled = false; // Desativa o componente do script
-            return; // Sai da função
+            return; // Sai da funï¿½ï¿½o
         }
 
-        // 2. Verifica o limite de ATIVOS. Se a cena estiver cheia, apenas espera a próxima verificação.
+        // 2. Verifica o limite de ATIVOS. Se a cena estiver cheia, apenas espera a prï¿½xima verificaï¿½ï¿½o.
         bool hasActiveLimit = (maxActiveGhosts != -1);
         if (hasActiveLimit)
         {
             int currentActiveGhosts = FindObjectsByType<GhostAI_Base>(FindObjectsSortMode.None).Length;
             if (currentActiveGhosts >= maxActiveGhosts)
             {
-                // Cena está cheia, não faz nada e espera o próximo intervalo.
-                return; // Sai da função
+                // Cena estï¿½ cheia, nï¿½o faz nada e espera o prï¿½ximo intervalo.
+                return; // Sai da funï¿½ï¿½o
             }
         }
 
-        // Se passou por todas as verificações, pode criar o fantasma.
+        // Se passou por todas as verificaï¿½ï¿½es, pode criar o fantasma.
         SpawnGhost();
     }
 
@@ -95,21 +95,21 @@ public class GhostSpawner : MonoBehaviour
         Vector2 spawnPosition = new (randomX, randomY);
 
         // --- LINHA CORRIGIDA ---
-        // Agora salvamos a referência do fantasma criado na variável 'newGhostObject'.
+        // Agora salvamos a referï¿½ncia do fantasma criado na variï¿½vel 'newGhostObject'.
         GameObject newGhostObject = Instantiate(ghostPrefab, spawnPosition, Quaternion.identity);
 
         spawnedCount++;
 
-        // Agora o resto do código funciona, pois a variável 'newGhostObject' existe.
+        // Agora o resto do cï¿½digo funciona, pois a variï¿½vel 'newGhostObject' existe.
         GhostAI_Base ghostAI = newGhostObject.GetComponent<GhostAI_Base>();
 
         if (ghostAI != null && initialTargetPoint != null)
         {
-            ghostAI.SetInitialTarget(initialTargetPoint);
+            // ghostAI.SetInitialTarget(initialTargetPoint);
         }
     }
 
-    [Header("Área de Spawn")]
+    [Header("ï¿½rea de Spawn")]
     [SerializeField] private Vector2 spawnAreaCenter = Vector2.zero;
     [SerializeField] private Vector2 spawnAreaSize = new(50f, 25f);
 
