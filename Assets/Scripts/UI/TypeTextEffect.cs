@@ -30,6 +30,11 @@ public class TypeTextEffect : MonoBehaviour
         textComponent.text = "";
     }
 
+    void Start()
+    {
+        StartTypingEffect(); // Inicia o efeito de digitação ao começar
+    }
+
     void OnEnable()
     {
         // Inicia o efeito de digitação quando o objeto é ativado

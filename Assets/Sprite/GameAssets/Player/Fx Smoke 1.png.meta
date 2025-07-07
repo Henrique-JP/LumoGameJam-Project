@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 4a733b514e133434a87a0ed18c5f02ea
+guid: b7f80ed1631d0f14289c90b11d7910bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7005650892046612335
-    second: porta lado aberta_0
+      213: -6148112346622352024
+    second: Fx Smoke 1_0
+  - first:
+      213: 7921246213919958985
+    second: Fx Smoke 1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: porta lado aberta_0
+      name: Fx Smoke 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 4
+        y: 4
+        width: 24
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,74 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 198c92791ade6ce90800000000000000
-      internalID: -7005650892046612335
+      spriteID: 865a16415648daaa0800000000000000
+      internalID: -6148112346622352024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta lado aberta_1
+      name: Fx Smoke 1_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 23
+        y: 23
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f70f9f58522a1504782c64ae1cd4e0d8
-      internalID: -446679868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: porta lado aberta_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19f05096b763c754086b89ed58e96978
-      internalID: -912401517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: porta lado aberta_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a172fc26720b99843abe09d36fb1a484
-      internalID: -2048132260
+      spriteID: 9c76b17867beded60800000000000000
+      internalID: 7921246213919958985
       vertices: []
       indices: 
       edges: []
@@ -204,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2cbd32ce7e771654ca98e7e2892a1994
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -212,14 +171,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      porta lado aberta_0: -7005650892046612335
-      porta lado aberta_1: -446679868
-      porta lado aberta_2: -912401517
-      porta lado aberta_3: -2048132260
+      Fx Smoke 1_0: -6148112346622352024
+      Fx Smoke 1_1: 7921246213919958985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
