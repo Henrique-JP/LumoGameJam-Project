@@ -82,12 +82,6 @@ public class GameManager : MonoBehaviour
                 pauseMenu.SetActive(false); // Desativa o menu de pausa
             }
         }
-
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            // Alterna a visibilidade da interface do livro
-            ToggleBookInterface();
-        }
     }
 
     // Método para iniciar o cronômetro do jogo

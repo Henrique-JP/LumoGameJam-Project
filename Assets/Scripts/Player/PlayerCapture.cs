@@ -1,124 +1,185 @@
 using UnityEngine;
+using TMPro;
 
-[RequireComponent(typeof(PlayerMovement))] // Garante que temos acesso ao script de movimento
+[RequireComponent(typeof(PlayerMovement))]
 public class PlayerCapture : MonoBehaviour
 {
-    [Header("Configurações da Área de Captura")]
-    public KeyCode captureKey = KeyCode.E;
-    public LayerMask ghostLayer;
+    // ... (suas variáveis continuam as mesmas) ...
+    [Header("Teclas de Ação")]
+    public KeyCode interactKey = KeyCode.E;
+    public KeyCode captureKey = KeyCode.Space;
+    public KeyCode readHintKey = KeyCode.F;
 
-    // --- ALTERADO ---
-    [Tooltip("O tamanho (largura e altura) da caixa de captura.")]
+    [Header("Variaveis da UI")]
+    public GameObject hintPanel;
+    public TextMeshProUGUI hintText;
+
+    [Header("Configuracoes do livro")]
+    public Transform bookHolder;
+
+    [Header("Configurações da Área de Captura")]
+    public LayerMask ghostLayer;
     public Vector2 captureBoxSize = new(3f, 2f);
-    [Tooltip("A que distância do jogador a caixa de captura aparece.")]
     public float captureDistance = 1.5f;
 
     [Header("Referências Visuais")]
     public GameObject captureAreaVisualizer;
 
     private Transform _transform;
-    private PlayerMovement playerMovement; // Referência para o script de movimento
+    private PlayerMovement playerMovement;
     private GhostCapture currentGhostTarget;
-    private Vector2 captureCenter;
+    private BookPickup equippedBook;
+    private BookPickup availableBook;
+    private bool hasPickedUpFirstBook = false;
+
 
     private void Awake()
     {
         _transform = transform;
-        playerMovement = GetComponent<PlayerMovement>(); // Pega a referência
+        playerMovement = GetComponent<PlayerMovement>();
 
         if (captureAreaVisualizer != null)
         {
-            // Ajusta o tamanho do visualizador para corresponder à caixa
             captureAreaVisualizer.transform.localScale = new Vector3(captureBoxSize.x, captureBoxSize.y, 1);
             captureAreaVisualizer.SetActive(false);
         }
+
+        if (hintPanel != null)
+        {
+            hintPanel.SetActive(false);
+        }
+        else
+        {
+            Debug.LogError("!!!! A variável 'hintPanel' NÃO foi atribuída no Inspector! !!!!", this.gameObject);
+        }
+
+        if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
+            GameManager.Instance.InteractButtonImage.gameObject.SetActive(false);
     }
 
     private void Update()
     {
-        // Calcula a posição da caixa de captura a cada frame
-        captureCenter = (Vector2)_transform.position + playerMovement.LastMovementDirection * captureDistance;
+        HandleInteractionInput();
+        HandleCaptureInput();
+        HandleHintInput();
+        CheckGhostCaptureStatus();
+    }
 
-        // Atualiza a posição do visualizador se ele estiver ativo
-        if (captureAreaVisualizer != null && captureAreaVisualizer.activeSelf)
+    private void HandleHintInput()
+    {
+        if (Input.GetKeyDown(readHintKey))
         {
-            captureAreaVisualizer.transform.position = captureCenter;
+            Debug.Log("<color=cyan>-- PISTA 1: Tecla 'F' foi pressionada. --</color>");
+            ToggleHintPanel();
+        }
+    }
+
+    private void ToggleHintPanel()
+    {
+        Debug.Log("<color=cyan>-- PISTA 2: Entrou na função ToggleHintPanel. --</color>");
+
+        if (hintPanel == null)
+        {
+            Debug.LogError("!!!! A função falhou porque a variável 'hintPanel' é NULA. Verifique o Inspector. !!!!");
+            return;
         }
 
-        if (Input.GetKeyDown(captureKey))
+        if (hintPanel.activeSelf)
         {
-            if (captureAreaVisualizer != null)
+            Debug.Log("<color=orange>Painel já está ativo, então será escondido.</color>");
+            hintPanel.SetActive(false);
+        }
+        else
+        {
+            Debug.Log("Painel está inativo. Verificando se o jogador tem um livro...");
+            if (equippedBook != null)
             {
-                captureAreaVisualizer.transform.position = captureCenter; // Posição inicial
-                captureAreaVisualizer.SetActive(true);
+                Debug.Log("<color=green>-- SUCESSO: Jogador TEM um livro equipado. Mostrando o painel. --</color>");
+                ShowHintPanel();
             }
+            else
+            {
+                Debug.Log("<color=red>-- FALHA: Jogador NÃO TEM um livro equipado. Nada a fazer. --</color>");
+            }
+        }
+    }
+
+    private void PickupAndSwapBook()
+    {
+        if (availableBook == null) return;
+
+        Debug.Log("<color=yellow>-- PISTA EXTRA: Tentando pegar o livro '" + availableBook.name + "' --</color>");
+
+        // ... (código original de troca) ...
+        Vector3 oldBookPosition = availableBook.transform.position;
+        Quaternion oldBookRotation = availableBook.transform.rotation;
+        if (equippedBook != null)
+        {
+            equippedBook.transform.SetParent(null);
+            equippedBook.transform.position = oldBookPosition;
+            equippedBook.transform.rotation = oldBookRotation;
+            equippedBook.gameObject.SetActive(true);
+        }
+        equippedBook = availableBook;
+        equippedBook.transform.SetParent(bookHolder);
+        equippedBook.transform.localPosition = Vector3.zero;
+        equippedBook.transform.localRotation = Quaternion.identity;
+        equippedBook.gameObject.SetActive(false);
+        availableBook = null;
+
+        Debug.Log("<color=yellow>-- PISTA EXTRA: Livro pego com sucesso! 'equippedBook' agora é: " + equippedBook.name + " --</color>");
+
+        if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
+            GameManager.Instance.InteractButtonImage.gameObject.SetActive(false);
+
+        if (!hasPickedUpFirstBook)
+        {
+            ShowHintPanel();
+            hasPickedUpFirstBook = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.TryGetComponent<BookPickup>(out var book))
+        {
+            Debug.Log("<color=lime>-- PISTA EXTRA: Jogador entrou na área de um livro: " + other.name + " --</color>");
+            availableBook = book;
+            if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
+                GameManager.Instance.InteractButtonImage.gameObject.SetActive(true);
+        }
+    }
+
+    // O resto do seu código (HandleInteractionInput, HandleCaptureInput, etc.) continua o mesmo
+    // Colei apenas as funções que modifiquei para a investigação.
+    // O código abaixo é o restante para garantir que você tenha tudo.
+    private void HandleInteractionInput()
+    {
+        if (Input.GetKeyDown(interactKey) && availableBook != null)
+        {
+            PickupAndSwapBook();
+        }
+    }
+    private void HandleCaptureInput()
+    {
+        if (Input.GetKey(captureKey) && equippedBook != null)
+        {
+            ActivateCaptureArea();
             AttemptToStartCapture();
         }
-
         if (Input.GetKeyUp(captureKey))
         {
-            if (captureAreaVisualizer != null)
-                captureAreaVisualizer.SetActive(false);
+            DeactivateCaptureArea();
             CancelCurrentCapture();
         }
-
-        // Checagem de distância agora usa a nova posição da caixa
-        if (currentGhostTarget != null)
-        {
-            float distanceToGhost = Vector2.Distance(captureCenter, currentGhostTarget.transform.position);
-            // Uma checagem simples para ver se o fantasma saiu da área geral
-            if (distanceToGhost > captureBoxSize.x)
-            {
-                CancelCurrentCapture();
-            }
-        }
     }
-
-    private void AttemptToStartCapture()
-    {
-        if (currentGhostTarget != null) return;
-
-        // --- ALTERADO ---
-        // Usa OverlapBox em vez de OverlapCircle
-        Collider2D hit = Physics2D.OverlapBox(captureCenter, captureBoxSize, 0f, ghostLayer);
-
-        if (hit != null)
-        {
-            var ghost = hit.GetComponent<GhostCapture>();
-            if (ghost != null && !ghost.IsBeingCaptured)
-            {
-                var romanceGhost = hit.GetComponent<RomanceGhost_AI>();
-                if (romanceGhost != null && !romanceGhost.IsVulnerable)
-                {
-                    Debug.Log("Este fantasma está se movendo rápido demais para ser capturado!");
-                    return;
-                }
-
-                currentGhostTarget = ghost;
-                currentGhostTarget.StartCaptureProcess();
-            }
-        }
-    }
-
-    private void CancelCurrentCapture()
-    {
-        if (currentGhostTarget != null)
-        {
-            currentGhostTarget.CancelCaptureProcess();
-            currentGhostTarget = null;
-        }
-    }
-
-    // --- ALTERADO ---
-    // Desenha uma caixa (WireCube) para debug no editor
-    private void OnDrawGizmosSelected()
-    {
-        Gizmos.color = Color.yellow;
-        // Precisamos garantir que temos a referência do movimento no modo de edição
-        PlayerMovement pm = GetComponent<PlayerMovement>();
-        Vector2 lastDir = (pm != null && pm.LastMovementDirection != Vector2.zero) ? pm.LastMovementDirection : Vector2.right;
-        Vector2 center = (Application.isPlaying) ? captureCenter : (Vector2)transform.position + lastDir * captureDistance;
-
-        Gizmos.DrawWireCube(center, captureBoxSize);
-    }
+    private void CheckGhostCaptureStatus() { if (currentGhostTarget != null && currentGhostTarget.IsBeingCaptured) { Vector2 captureCenter = GetCaptureCenter(); Collider2D[] results = Physics2D.OverlapBoxAll(captureCenter, captureBoxSize, 0f, ghostLayer); bool ghostStillInArea = false; foreach (var hit in results) { if (hit.GetComponent<GhostCapture>() == currentGhostTarget) { ghostStillInArea = true; break; } } if (!ghostStillInArea) { CancelCurrentCapture(); } } }
+    private Vector2 GetCaptureCenter() { Vector2 lastDir = (playerMovement.LastMovementDirection.sqrMagnitude > 0.01f) ? playerMovement.LastMovementDirection : (Vector2)_transform.right; return (Vector2)_transform.position + lastDir.normalized * captureDistance; }
+    private void ActivateCaptureArea() { if (captureAreaVisualizer != null) { captureAreaVisualizer.transform.position = GetCaptureCenter(); captureAreaVisualizer.SetActive(true); } }
+    private void DeactivateCaptureArea() { if (captureAreaVisualizer != null) { captureAreaVisualizer.SetActive(false); } }
+    private void AttemptToStartCapture() { if (currentGhostTarget != null) return; Collider2D[] hits = Physics2D.OverlapBoxAll(GetCaptureCenter(), captureBoxSize, 0f, ghostLayer); foreach (var hit in hits) { var ghost = hit.GetComponent<GhostCapture>(); if (ghost != null && !ghost.IsBeingCaptured) { if (equippedBook != null && ghost.ghostGenre == this.equippedBook.bookGenre) { currentGhostTarget = ghost; currentGhostTarget.StartCaptureProcess(); break; } } } }
+    private void CancelCurrentCapture() { if (currentGhostTarget != null) { currentGhostTarget.CancelCaptureProcess(); currentGhostTarget = null; } DeactivateCaptureArea(); }
+    private void ShowHintPanel() { if (equippedBook != null && hintPanel != null && hintText != null) { hintText.text = equippedBook.bookHint; hintPanel.SetActive(true); } }
+    private void OnTriggerExit2D(Collider2D other) { if (other.TryGetComponent<BookPickup>(out var book) && availableBook == book) { availableBook = null; if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null) GameManager.Instance.InteractButtonImage.gameObject.SetActive(false); } }
+    private void OnDrawGizmosSelected() { Gizmos.color = Color.yellow; Vector2 center = Application.isPlaying ? GetCaptureCenter() : (Vector2)transform.position + Vector2.right * captureDistance; Gizmos.DrawWireCube(center, captureBoxSize); }
 }

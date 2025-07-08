@@ -14,11 +14,13 @@ public class GhostAI_Base : MonoBehaviour
 
     // --- Waypoints ---
     [Header("Waypoints")]
+    private Coroutine patrolWaitCoroutine; // Variavel para armazenar a Coroutine
     public List<Transform> waypoints; // Lista de waypoints na cena
     protected int currentWaypointIndex; // Alterado para protected
     [Tooltip("Tempo de atraso em segundos ao chegar em um waypoint antes de escolher o próximo.")]
     public float waypointDecisionDelay = 0.5f; // Tempo de atraso na decisão do waypoint
     private bool isWaitingAtWaypoint = false; // Flag para indicar se está esperando
+
 
     // --- Referências ---
     protected Transform playerTransform; // Alterado para protected
@@ -42,7 +44,13 @@ public class GhostAI_Base : MonoBehaviour
         anim = GetComponent<Animator>(); // Inicializa o Animator
         spriteRenderer = GetComponent<SpriteRenderer>(); // Inicializa o SpriteRenderer
 
-        playerTransform = GameObject.FindGameObjectWithTag("Player")?.transform; // Encontra o jogador pela tag
+        
+        GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
+        if (playerObject != null)
+        {
+            playerTransform = playerObject.transform;// Encontra o jogador pela tag
+        } 
+
         if (playerTransform == null)
         {
             Debug.LogError("Jogador não encontrado! Certifique-se de que o jogador tem a tag 'Player'.");
@@ -120,7 +128,10 @@ public class GhostAI_Base : MonoBehaviour
             // Interrompe qualquer espera de waypoint se for para fugir
             if (isWaitingAtWaypoint)
             {
-                StopCoroutine("WaitForNextWaypoint");
+                if (patrolWaitCoroutine != null)
+                {
+                    StopCoroutine(patrolWaitCoroutine);
+                }
                 isWaitingAtWaypoint = false;
             }
             Debug.Log("Fantasma detectou o jogador e está fugindo!");
@@ -140,7 +151,7 @@ public class GhostAI_Base : MonoBehaviour
         // Só verifica a chegada ao waypoint se não estiver esperando
         if (!isWaitingAtWaypoint && Vector2.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.5f)
         {
-            StartCoroutine(WaitForNextWaypoint());
+            patrolWaitCoroutine = StartCoroutine(WaitForNextWaypoint());
         }
     }
 
@@ -184,7 +195,7 @@ public class GhostAI_Base : MonoBehaviour
         {
             Debug.DrawRay(transform.position, desiredVelocity.normalized * obstacleDetectionDistance, Color.red);
 
-            Vector2 avoidanceDirection = Vector2.zero;
+            Vector2 avoidanceDirection;
 
             Vector2 right = Quaternion.Euler(0, 0, -90) * desiredVelocity.normalized;
             Vector2 left = Quaternion.Euler(0, 0, 90) * desiredVelocity.normalized;
@@ -195,7 +206,7 @@ public class GhostAI_Base : MonoBehaviour
             if (hitRight.collider == null)
             {
                 avoidanceDirection = right;
-            }
+            }   
             else if (hitLeft.collider == null)
             {
                 avoidanceDirection = left;

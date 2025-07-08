@@ -119,58 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &17428706
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 17428708}
-  - component: {fileID: 17428707}
-  m_Layer: 0
-  m_Name: Terror Spawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &17428707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17428706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0407d85aa4e35d4aab129869d5503f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ghostPrefab: {fileID: 3518046532476453743, guid: 90c1091059ef5e34295358f674b4e894, type: 3}
-  startAutomatically: 1
-  spawnInterval: 10
-  maxActiveGhosts: 5
-  totalSpawnLimit: 20
-  initialTargetPoint: {fileID: 0}
-  spawnAreaCenter: {x: 24, y: 0.61}
-  spawnAreaSize: {x: 23.1, y: 18}
---- !u!4 &17428708
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 17428706}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.55482, y: -2.15142, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &27373300
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,37 +206,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &31654662
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31654663}
-  m_Layer: 0
-  m_Name: Ponto de saida Fantasia
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &31654663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31654662}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.6107, y: 5.0971704, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2143070153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &42939399
 GameObject:
   m_ObjectHideFlags: 0
@@ -8305,6 +8222,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf46b9b04e9d08b4abe4c6dd729d7a15, type: 3}
+--- !u!1 &310644873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310644874}
+  m_Layer: 3
+  m_Name: BookHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &310644874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310644873}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.51, y: -13.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2051368988}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &333618621 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2185770342138472286, guid: 90c1091059ef5e34295358f674b4e894, type: 3}
@@ -9724,7 +9672,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: -10}
+  m_LocalPosition: {x: -0.17, y: -8.44, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10744,7 +10692,7 @@ Transform:
   m_GameObject: {fileID: 809728397}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.35034, y: 3.20479, z: -10}
+  m_LocalPosition: {x: -1.52034, y: -9.235209, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13912,8 +13860,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1341088063}
   - component: {fileID: 1341088062}
+  - component: {fileID: 1341088065}
+  - component: {fileID: 1341088064}
   m_Layer: 0
-  m_Name: Livro Item 3
+  m_Name: Livro Romance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13989,6 +13939,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 103731917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1341088064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341088061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea4c7dc2593c2b4795e114c644c7ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookGenre: 3
+  bookHint: " \u201CEste fantasma abriga uma paix\xE3o fervente, ele precisa queimar
+    as chamas do ci\xFAme para poder abrir espa\xE7o para o amor, e \xE9 esse sentimento
+    que o deixa vulner\xE1vel\u201D."
+--- !u!61 &1341088065
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341088061}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0.22
 --- !u!4 &1351029070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2185770342138472286, guid: 90c1091059ef5e34295358f674b4e894, type: 3}
@@ -14260,8 +14272,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1393124078}
   - component: {fileID: 1393124079}
+  - component: {fileID: 1393124081}
+  - component: {fileID: 1393124080}
   m_Layer: 0
-  m_Name: Livro Item 2
+  m_Name: Livro Fantasia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14337,6 +14351,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1393124080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393124077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea4c7dc2593c2b4795e114c644c7ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookGenre: 2
+  bookHint: "Este fantasma procura o tesouro de um feroz drag\xE3o; ele conseguiu
+    se esgueirar no covil da besta, por\xE9m foge ao primeiro sinal de seu olhar
+    iluminado, pois a fera pretende aprision\xE1-lo em seu covil para sempre\u201D."
+--- !u!61 &1393124081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393124077}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0.22
 --- !u!1 &1399052308
 GameObject:
   m_ObjectHideFlags: 0
@@ -14574,58 +14650,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1432092846
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1432092848}
-  - component: {fileID: 1432092847}
-  m_Layer: 0
-  m_Name: Spawner Fantasy Alavanca
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1432092847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432092846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0407d85aa4e35d4aab129869d5503f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ghostPrefab: {fileID: 2541938583576182486, guid: 06cc23765325891429a1af59b37cdbbd, type: 3}
-  startAutomatically: 0
-  spawnInterval: 10
-  maxActiveGhosts: 3
-  totalSpawnLimit: 5
-  initialTargetPoint: {fileID: 31654663}
-  spawnAreaCenter: {x: -26, y: 8.48}
-  spawnAreaSize: {x: 7.82, y: 2.84}
---- !u!4 &1432092848
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432092846}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.50871, y: -1.71018, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2143070153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1441586179
 GameObject:
   m_ObjectHideFlags: 0
@@ -14636,8 +14660,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1441586181}
   - component: {fileID: 1441586180}
+  - component: {fileID: 1441586183}
+  - component: {fileID: 1441586182}
   m_Layer: 0
-  m_Name: Livro Item 1
+  m_Name: Livro Terror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14713,6 +14739,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 103731917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1441586182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441586179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aea4c7dc2593c2b4795e114c644c7ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookGenre: 1
+  bookHint: "\u201CMesmo depois da morte, este fantasma teme a tudo e a todos; cima,
+    baixo, esquerda ou direita, todas s\xE3o rotas de fuga, por\xE9m ele n\xE3o se
+    decide para qual ir e por isso \xE9 literalmente, um peso morto\u201D."
+--- !u!61 &1441586183
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441586179}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0.22
 --- !u!1001 &1465144932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57968,89 +58056,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1967025722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1967025723}
-  m_Layer: 0
-  m_Name: Ponto de saida Romance
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1967025723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967025722}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.5007, y: 5.1171703, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2143070153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1972200039
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1972200041}
-  - component: {fileID: 1972200040}
-  m_Layer: 0
-  m_Name: Spawner Romance Alavanca
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1972200040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972200039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0407d85aa4e35d4aab129869d5503f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ghostPrefab: {fileID: 7692124361476128423, guid: bf46b9b04e9d08b4abe4c6dd729d7a15, type: 3}
-  startAutomatically: 0
-  spawnInterval: 10
-  maxActiveGhosts: 3
-  totalSpawnLimit: 5
-  initialTargetPoint: {fileID: 1967025723}
-  spawnAreaCenter: {x: -16, y: 8.53}
-  spawnAreaSize: {x: 7.82, y: 2.89}
---- !u!4 &1972200041
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972200039}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.50871, y: -1.71018, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2143070153}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1977254661 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7692124361476128423, guid: bf46b9b04e9d08b4abe4c6dd729d7a15, type: 3}
@@ -58454,13 +58459,14 @@ Transform:
   m_GameObject: {fileID: 2051368984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: -0.17, y: -8.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2034809934}
   - {fileID: 1374548238}
   - {fileID: 1696200901}
+  - {fileID: 310644874}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2051368989
@@ -58490,12 +58496,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7e03d3ce1ff8c47b3f4ac2c37e4f86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  captureKey: 32
+  interactKey: 101
+  readHintKey: 102
+  hintPanel: {fileID: 0}
+  hintText: {fileID: 0}
+  bookHolder: {fileID: 310644874}
   ghostLayer:
     serializedVersion: 2
     m_Bits: 64
-  captureBoxSize: {x: 1.5, y: 1.5}
-  captureDistance: 1
+  captureBoxSize: {x: 3, y: 2}
+  captureDistance: 1.5
   captureAreaVisualizer: {fileID: 2066278467}
 --- !u!58 &2051368992
 CircleCollider2D:
@@ -58835,41 +58845,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d08e1ed8ca2c1847850af58ede74395, type: 3}
---- !u!1 &2143070152
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2143070153}
-  m_Layer: 0
-  m_Name: Evento do Spawner alavanca
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &2143070153
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143070152}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.5793, y: 0.95283, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1432092848}
-  - {fileID: 1972200041}
-  - {fileID: 31654663}
-  - {fileID: 1967025723}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3273384344744518820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59003,8 +58978,6 @@ SceneRoots:
   - {fileID: 1115233191}
   - {fileID: 1042790490}
   - {fileID: 2066278469}
-  - {fileID: 17428708}
-  - {fileID: 2143070153}
   - {fileID: 1982705688}
   - {fileID: 103731917}
   - {fileID: 1786695345}
