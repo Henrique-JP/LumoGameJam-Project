@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Configura��es de Movimento")]
     [Tooltip("A velocidade base de movimento do jogador.")]
     [SerializeField] private float moveSpeed = 5f;
+    public ParticleSystem dustEffect; // Efeito de poeira, se houver
 
     [Header("Configura��es de Input")]
     [Tooltip("Nome do eixo de input horizontal (Project Settings -> Input Manager).")]
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     private float originalSpeed;
 
     private Animator anim; // Refer��ncia ao Animator, se houver
+    private SoundManager soundManager; // Refer��ncia ao SoundManager, se houver
 
     //======================================================================
     //  M�TODOS DA UNITY
@@ -54,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
         originalSpeed = moveSpeed;
         LastMovementDirection = Vector2.down; // Define uma dire��o inicial padr�o
         anim = GetComponent<Animator>(); // Obtendo o Animator, se existir
+        soundManager = GameObject.FindFirstObjectByType<SoundManager>(); // Obtendo o SoundManager, se existir
     }
 
     private void Update()
@@ -106,6 +109,16 @@ public class PlayerMovement : MonoBehaviour
         if (movement.sqrMagnitude > 0.01f) // Usar um limiar pequeno � mais seguro que 0.1f
         {
             LastMovementDirection = movement.normalized;
+            if (dustEffect != null && !dustEffect.isPlaying)
+            {
+                dustEffect.Play(); // Inicia o efeito de poeira se estiver definido
+                soundManager?.PlayerWalkSource.Play(); // Toca o som de passos do jogador, se existir
+            }
+        }
+        else if (dustEffect != null && dustEffect.isPlaying)
+        {
+            dustEffect.Stop(); // Para o efeito de poeira se n��o houver movimento
+            soundManager?.PlayerWalkSource.Stop(); // Para o som de passos do jogador, se existir
         }
 
         // Notifica outros scripts sobre o vetor de movimento atual
