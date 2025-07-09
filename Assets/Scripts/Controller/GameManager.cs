@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Audio")]
+    public AudioSource backgroundMusicSource;
+
     [Header("Player UI Elements")]
     public Image InteractButtonImage; // Referência à imagem do botão de interação
 
@@ -13,7 +16,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI ghostCountText;
     public TextMeshProUGUI introMessageText; // para a mensagem inicial
-    public GameObject pauseMenu; // Referência ao menu de pausa
+    public GameObject pauseMenu; // Referência ao painel do menu de pausa
     public GameObject BookInterface; // Referência à interface do livro
 
     [Header("Game Settings")]
@@ -21,14 +24,15 @@ public class GameManager : MonoBehaviour
     public int totalGhostsToCapture = 5;
 
     [Header("Intro Message Settings")]
-    public float introMessageDisplayTime = 3.0f; // Tempo que a mensagem fica totalmente visível
-    public float introMessageFadeOutTime = 2.0f; // Tempo para a mensagem sumir gradualmente
+    public float introMessageDisplayTime = 3.0f;
+    public float introMessageFadeOutTime = 2.0f;
 
     private float currentTime;
     private int capturedGhosts = 0;
     private bool gameOver = false;
+    private bool isPaused = false; // Para rastrear o estado de pausa
 
-    public static GameManager Instance { get; private set; } // singleton para acessar o GameManager de outros scripts
+    public static GameManager Instance { get; private set; }
 
     void Awake()
     {
@@ -44,19 +48,22 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // Garante que o menu de pausa comece desativado
+        if (pauseMenu != null)
+        {
+            pauseMenu.SetActive(false);
+        }
+
         currentTime = totalTimeInMinutes * 60f;
         UpdateTimerDisplay();
         UpdateGhostCountDisplay();
 
-        // Garante que a mensagem inicial esteja visível no começo
         if (introMessageText != null)
         {
             Color initialColor = introMessageText.color;
-            initialColor.a = 1f; // Totalmente visível
+            initialColor.a = 1f;
             introMessageText.color = initialColor;
-            introMessageText.gameObject.SetActive(true); // Garante que o objeto está ativo
-
-            // Inicia a coroutine para exibir e depois fazer a mensagem sumir
+            introMessageText.gameObject.SetActive(true);
             StartCoroutine(ShowAndFadeOutIntroMessage());
         }
     }
@@ -68,85 +75,81 @@ public class GameManager : MonoBehaviour
             return;
         }
 
+        // Se a tecla ESC for pressionada
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            // Verifica se o jogo está pausado e alterna entre pausar e retomar
-            if (Time.timeScale == 1f)
+            // Prioridade: Se a interface do livro estiver aberta, feche-a primeiro.
+            if (BookInterface != null && BookInterface.activeSelf)
             {
-                Time.timeScale = 0f; // Pausa o jogo
-                pauseMenu.SetActive(true); // Ativa o menu de pausa
+                BookInterface.SetActive(false);
             }
+            // Caso contrário, alterne o menu de pausa.
             else
             {
-                Time.timeScale = 1f; // Retoma o jogo
-                pauseMenu.SetActive(false); // Desativa o menu de pausa
+                TogglePauseMenu();
             }
         }
     }
 
-    // Método para iniciar o cronômetro do jogo
-    private void RunGameTimer()
+    // Método público para pausar e despausar o jogo
+    public void TogglePauseMenu()
     {
-        // Se o jogo não acabou e a mensagem já sumiu, continue o cronômetro
-        if (!gameOver)
-        {
-            currentTime -= Time.deltaTime;
-            UpdateTimerDisplay();
+        isPaused = !isPaused; // Inverte o estado de pausa
 
-            if (currentTime <= 0)
+        if (isPaused)
+        {
+            Time.timeScale = 0f; // Pausa o tempo do jogo
+            pauseMenu.SetActive(true); // Ativa o menu de pausa
+            if (backgroundMusicSource != null)
             {
-                currentTime = 0;
-                UpdateTimerDisplay();
-                EndGame(false);
+                backgroundMusicSource.Pause();
+            }
+        }
+        else
+        {
+            Time.timeScale = 1f; // Retoma o tempo do jogo
+            pauseMenu.SetActive(false); // Desativa o menu de pausa
+            if (backgroundMusicSource != null)
+            {
+                backgroundMusicSource.UnPause();
             }
         }
     }
 
     IEnumerator ShowAndFadeOutIntroMessage()
     {
-        // Garante que o cronômetro do jogo não está ativo enquanto a mensagem é exibida
-        Time.timeScale = 0f; // Pausa o jogo enquanto a mensagem está na tela
-
-        // Tempo em que a mensagem fica totalmente visível
-        yield return new WaitForSecondsRealtime(introMessageDisplayTime); // Realtime para não ser afetado pelo Time.timeScale = 0f
-
-        // Reinicia o tempo do jogo
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(introMessageDisplayTime);
         Time.timeScale = 1f;
-
-        // Inicia a contagem regressiva do jogo no Update a partir de agora
         StartCoroutine(GameTimerCoroutine());
 
-        // Faz a mensagem sumir gradualmente
         float timer = introMessageFadeOutTime;
         Color currentColor = introMessageText.color;
 
         while (timer > 0)
         {
             timer -= Time.deltaTime;
-            currentColor.a = timer / introMessageFadeOutTime; // Diminui o alpha
+            currentColor.a = timer / introMessageFadeOutTime;
             introMessageText.color = currentColor;
             yield return null;
         }
-
-        introMessageText.gameObject.SetActive(false); // Desativa o objeto de texto ao final
+        introMessageText.gameObject.SetActive(false);
     }
 
-    //Coroutine para gerenciar o cronômetro do jogo
     IEnumerator GameTimerCoroutine()
     {
         while (!gameOver && currentTime > 0)
         {
             currentTime -= Time.deltaTime;
             UpdateTimerDisplay();
-            yield return null; // Espera pelo próximo frame
+            yield return null;
         }
 
-        if (currentTime <= 0 && !gameOver) // Garante que a derrota por tempo só ocorre uma vez
+        if (currentTime <= 0 && !gameOver)
         {
             EndGame(false);
         }
     }
-
 
     void UpdateTimerDisplay()
     {
@@ -154,7 +157,7 @@ public class GameManager : MonoBehaviour
         int seconds = Mathf.FloorToInt(currentTime % 60);
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        if (currentTime <= 60f)//mudando a cor do texto do cronômetro para vermelho quando o tempo estiver abaixo de 1 minuto
+        if (currentTime <= 60f)
         {
             timerText.color = Color.red;
         }
@@ -168,7 +171,6 @@ public class GameManager : MonoBehaviour
     public void GhostCaptured()
     {
         if (gameOver) return;
-
         capturedGhosts++;
         UpdateGhostCountDisplay();
 
@@ -181,19 +183,17 @@ public class GameManager : MonoBehaviour
     void EndGame(bool playerWon)
     {
         gameOver = true;
-        Time.timeScale = 0f; // Pausa o jogo ao final
+        Time.timeScale = 0f;
 
         if (playerWon)
         {
             Debug.Log("Você venceu! Todos os fantasmas foram capturados.");
-            // Lógica de vitória
-            SceneManager.LoadScene("GameWinScene"); // Carrega a cena de vitória
+            SceneManager.LoadScene("GameWinScene");
         }
         else
         {
             Debug.Log("Tempo esgotado! Você perdeu.");
-            // Lógica de derrota
-            SceneManager.LoadScene("GameOverScene"); // Carrega a cena de Game Over
+            SceneManager.LoadScene("GameOverScene");
         }
     }
 
@@ -205,9 +205,15 @@ public class GameManager : MonoBehaviour
 
     public void QuitGame()
     {
-        Time.timeScale = 1f; // Garante que o tempo está normal antes de sair
+        Time.timeScale = 1f;
         Application.Quit();
         Debug.Log("Jogo encerrado.");
+    }
+
+    public void GoToMainMenu()
+    {
+        Time.timeScale = 1f; 
+        SceneManager.LoadScene("MenuScene");
     }
 
     public void ToggleBookInterface()

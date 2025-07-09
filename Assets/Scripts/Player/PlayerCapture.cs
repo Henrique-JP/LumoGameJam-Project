@@ -1,11 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 [RequireComponent(typeof(PlayerMovement))]
 public class PlayerCapture : MonoBehaviour
 {
-    // ... (suas vari·veis continuam as mesmas) ...
-    [Header("Teclas de AÁ„o")]
+    [Header("Teclas de A√ß√£o")]
     public KeyCode interactKey = KeyCode.E;
     public KeyCode captureKey = KeyCode.Space;
     public KeyCode readHintKey = KeyCode.F;
@@ -13,16 +13,17 @@ public class PlayerCapture : MonoBehaviour
     [Header("Variaveis da UI")]
     public GameObject hintPanel;
     public TextMeshProUGUI hintText;
+    public Image bookIconImage;
 
     [Header("Configuracoes do livro")]
     public Transform bookHolder;
 
-    [Header("ConfiguraÁıes da ¡rea de Captura")]
+    [Header("Configura√ß√µes da √Årea de Captura")]
     public LayerMask ghostLayer;
     public Vector2 captureBoxSize = new(3f, 2f);
     public float captureDistance = 1.5f;
 
-    [Header("ReferÍncias Visuais")]
+    [Header("Refer√™ncias Visuais")]
     public GameObject captureAreaVisualizer;
 
     private Transform _transform;
@@ -30,7 +31,6 @@ public class PlayerCapture : MonoBehaviour
     private GhostCapture currentGhostTarget;
     private BookPickup equippedBook;
     private BookPickup availableBook;
-    private bool hasPickedUpFirstBook = false;
 
 
     private void Awake()
@@ -50,7 +50,12 @@ public class PlayerCapture : MonoBehaviour
         }
         else
         {
-            Debug.LogError("!!!! A vari·vel 'hintPanel' N√O foi atribuÌda no Inspector! !!!!", this.gameObject);
+            Debug.LogError("!!!! A vari√°vel 'hintPanel' N√ÉO foi atribu√≠da no Inspector! !!!!", this.gameObject);
+        }
+
+        if (bookIconImage != null)
+        {
+            bookIconImage.enabled = false;
         }
 
         if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
@@ -76,22 +81,22 @@ public class PlayerCapture : MonoBehaviour
 
     private void ToggleHintPanel()
     {
-        Debug.Log("<color=cyan>-- PISTA 2: Entrou na funÁ„o ToggleHintPanel. --</color>");
+        Debug.Log("<color=cyan>-- PISTA 2: Entrou na fun√ß√£o ToggleHintPanel. --</color>");
 
         if (hintPanel == null)
         {
-            Debug.LogError("!!!! A funÁ„o falhou porque a vari·vel 'hintPanel' È NULA. Verifique o Inspector. !!!!");
+            Debug.LogError("!!!! A fun√ß√£o falhou porque a vari√°vel 'hintPanel' √© NULA. Verifique o Inspector. !!!!");
             return;
         }
 
         if (hintPanel.activeSelf)
         {
-            Debug.Log("<color=orange>Painel j· est· ativo, ent„o ser· escondido.</color>");
+            Debug.Log("<color=orange>Painel j√° est√° ativo, ent√£o ser√° escondido.</color>");
             hintPanel.SetActive(false);
         }
         else
         {
-            Debug.Log("Painel est· inativo. Verificando se o jogador tem um livro...");
+            Debug.Log("Painel est√° inativo. Verificando se o jogador tem um livro...");
             if (equippedBook != null)
             {
                 Debug.Log("<color=green>-- SUCESSO: Jogador TEM um livro equipado. Mostrando o painel. --</color>");
@@ -99,7 +104,7 @@ public class PlayerCapture : MonoBehaviour
             }
             else
             {
-                Debug.Log("<color=red>-- FALHA: Jogador N√O TEM um livro equipado. Nada a fazer. --</color>");
+                Debug.Log("<color=red>-- FALHA: Jogador N√ÉO TEM um livro equipado. Nada a fazer. --</color>");
             }
         }
     }
@@ -110,7 +115,6 @@ public class PlayerCapture : MonoBehaviour
 
         Debug.Log("<color=yellow>-- PISTA EXTRA: Tentando pegar o livro '" + availableBook.name + "' --</color>");
 
-        // ... (cÛdigo original de troca) ...
         Vector3 oldBookPosition = availableBook.transform.position;
         Quaternion oldBookRotation = availableBook.transform.rotation;
         if (equippedBook != null)
@@ -127,15 +131,26 @@ public class PlayerCapture : MonoBehaviour
         equippedBook.gameObject.SetActive(false);
         availableBook = null;
 
-        Debug.Log("<color=yellow>-- PISTA EXTRA: Livro pego com sucesso! 'equippedBook' agora È: " + equippedBook.name + " --</color>");
+        UpdateBookIcon();
+
+        Debug.Log("<color=yellow>-- PISTA EXTRA: Livro pego com sucesso! 'equippedBook' agora √©: " + equippedBook.name + " --</color>");
 
         if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
             GameManager.Instance.InteractButtonImage.gameObject.SetActive(false);
+    }
 
-        if (!hasPickedUpFirstBook)
+    private void UpdateBookIcon()
+    {
+        if (bookIconImage == null) return;
+
+        if (equippedBook != null && equippedBook.bookIcon != null)
         {
-            ShowHintPanel();
-            hasPickedUpFirstBook = true;
+            bookIconImage.sprite = equippedBook.bookIcon;
+            bookIconImage.enabled = true;
+        }
+        else
+        {
+            bookIconImage.enabled = false;
         }
     }
 
@@ -143,16 +158,12 @@ public class PlayerCapture : MonoBehaviour
     {
         if (other.TryGetComponent<BookPickup>(out var book))
         {
-            Debug.Log("<color=lime>-- PISTA EXTRA: Jogador entrou na ·rea de um livro: " + other.name + " --</color>");
+            Debug.Log("<color=lime>-- PISTA EXTRA: Jogador entrou na √°rea de um livro: " + other.name + " --</color>");
             availableBook = book;
             if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
                 GameManager.Instance.InteractButtonImage.gameObject.SetActive(true);
         }
     }
-
-    // O resto do seu cÛdigo (HandleInteractionInput, HandleCaptureInput, etc.) continua o mesmo
-    // Colei apenas as funÁıes que modifiquei para a investigaÁ„o.
-    // O cÛdigo abaixo È o restante para garantir que vocÍ tenha tudo.
     private void HandleInteractionInput()
     {
         if (Input.GetKeyDown(interactKey) && availableBook != null)

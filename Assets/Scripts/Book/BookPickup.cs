@@ -1,10 +1,10 @@
-// In English: BookPickup.cs
 using UnityEngine;
 
 public class BookPickup : MonoBehaviour
 {
-    [Header("Configuração do Livro")]
-    public BookGenre bookGenre; // ATUALIZADO: usa o enum BookGenre
+    [Header("ConfiguraÃ§Ã£o do Livro")]
+    public BookGenre bookGenre;
+    public Sprite bookIcon;
     [TextArea(3, 5)]
     public string bookHint;
 
