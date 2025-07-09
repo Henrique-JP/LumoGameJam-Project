@@ -25,7 +25,8 @@ public class GhostAI_Base : MonoBehaviour
     // --- Referências ---
     protected Transform playerTransform; // Alterado para protected
     protected Rigidbody2D rb; // Alterado para protected
-    private Animator anim; // Referência ao Animator, se houver
+    public Animator anim; // Referência ao Animator, se houver
+    public SoundManager soundManager; // Referência ao SoundManager, se houver
     private SpriteRenderer spriteRenderer; // Adicionado para controle do flipX
 
     // --- Máquina de Estados ---
@@ -43,6 +44,7 @@ public class GhostAI_Base : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>(); // Inicializa o Animator
         spriteRenderer = GetComponent<SpriteRenderer>(); // Inicializa o SpriteRenderer
+        soundManager = Object.FindAnyObjectByType<SoundManager>(); // Encontra o SoundManager na cena
 
         
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");

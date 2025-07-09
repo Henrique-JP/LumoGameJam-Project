@@ -1,17 +1,17 @@
 using UnityEngine;
 using System.Collections;
-using TMPro; 
+using TMPro;
 
 public class TypeTextEffect : MonoBehaviour
 {
     // A velocidade em que as letras aparecerão (quanto menor, mais rápido)
     [Tooltip("A velocidade em segundos entre a exibição de cada letra. Quanto menor, mais rápido.")]
-    [Range(0.01f, 1f)] 
+    [Range(0.01f, 1f)]
     public float typingSpeed = 0.05f;
 
     [TextArea(3, 10)] // Permite múltiplas linhas no inspetor
     public string fullText;
-    private TextMeshProUGUI textComponent; 
+    private TextMeshProUGUI textComponent;
 
     private string currentDisplayedText = "";
     private Coroutine typingCoroutine;
@@ -32,7 +32,7 @@ public class TypeTextEffect : MonoBehaviour
 
     void Start()
     {
-        StartTypingEffect(); // Inicia o efeito de digitação ao começar
+        StartCoroutine(CoolDown(1f)); // Inicia a coroutine de cooldown para esperar antes de começar o efeito
     }
 
     void OnEnable()
@@ -77,6 +77,13 @@ public class TypeTextEffect : MonoBehaviour
     public void SetTextAndStartTyping(string newText)
     {
         fullText = newText;
+        StartTypingEffect();
+    }
+
+    IEnumerator CoolDown(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        // Aqui você pode adicionar lógica para o que deve acontecer após o tempo de espera
         StartTypingEffect();
     }
 }

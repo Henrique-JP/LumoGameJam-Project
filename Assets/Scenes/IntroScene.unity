@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7285104100621103090, guid: 433afee5f59e6104e9cf0342488abdcd, type: 3}
+  m_Sprite: {fileID: -3947761721447699339, guid: 4829ed68ec85e7442b9edaadfb09d138, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -273,6 +273,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1067062547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5305284596997151183, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
+  m_PrefabInstance: {fileID: 7976011775572469827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1067062552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067062547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7f76ba8c6a14140bf97b00fce16620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cutSceneSprites:
+  - {fileID: 1260107517815516888, guid: 79c671a0de32e20419a4c3d1b62e2c9e, type: 3}
+  - {fileID: 2013174817265100453, guid: 5458c70bd84ae774b86d5458622a1f0f, type: 3}
+  - {fileID: 4786423708133202951, guid: 09dccb65b03c9094785f622527944079, type: 3}
+  - {fileID: 3411149371738645661, guid: f2ded1ecd14044b4a8ec564c23261583, type: 3}
+  - {fileID: 161774801052125920, guid: b14020aa9b874b34fa8cd3e54becbc45, type: 3}
+  cutSceneImage: {fileID: 80176241}
 --- !u!1 &1289223775
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,6 +888,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5305284596997151183, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
+      propertyPath: m_Name
+      value: Capitulo 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5949480274138677747, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -885,6 +913,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9012543604449910363, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
+      propertyPath: m_Name
+      value: Capitulo 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9151733682116184463, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.b
       value: 0.78431374
@@ -903,7 +935,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4977542102752556620, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
       insertIndex: 2
       addedObject: {fileID: 1289223776}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5305284596997151183, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1067062552}
   m_SourcePrefab: {fileID: 100100000, guid: 43948a83346dc9a4a85eedc14341bbec, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
