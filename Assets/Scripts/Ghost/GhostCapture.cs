@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using TMPro;
 
 public class GhostCapture : MonoBehaviour
 {
@@ -54,7 +55,7 @@ public class GhostCapture : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float process = elapsedTime / timeToCapture;
-            float newAlpha = 1.0f - process;
+            float newAlpha = startColor.a - process;
 
             if (spriteRenderer != null)
                 spriteRenderer.color = new Color(originalColor.r, originalColor.g, originalColor.b, newAlpha);

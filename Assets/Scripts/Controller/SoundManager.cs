@@ -6,8 +6,4 @@ public class SoundManager : MonoBehaviour
     public AudioSource musicSource; // Fonte de m��sica
     [Header("Sons de Jogador")]
     public AudioSource PlayerWalkSource; // Fonte de passos do jogador
-    [Header("Sons de Fantasma")]
-    public AudioSource GhostWalk_Terror; // Fonte de passos do fantasma
-    public AudioSource GhostGiggle_Fantasy; // Fonte de passos do fantasma
-    public AudioSource GhostTeleport_Fantasy; // Fonte de passos do fantasma
 }

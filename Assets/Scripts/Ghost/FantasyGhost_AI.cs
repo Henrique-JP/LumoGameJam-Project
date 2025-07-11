@@ -12,6 +12,10 @@ public class FantasyGhost_AI : GhostAI_Base
     private float teleportTimer;
     public float giggleTimer = 10f; // Timer para o som de risada
 
+    [Header("Sons do Fantasma")]
+    public AudioSource GhostGiggle_Fantasy; // Fonte de passos do fantasma
+    public AudioSource GhostTeleport_Fantasy; // Fonte de passos do fantasma
+
     protected override void Awake()
     {
         base.Awake(); // Chama o Awake da base
@@ -46,9 +50,9 @@ public class FantasyGhost_AI : GhostAI_Base
         Transform targetWaypoint = waypoints[randomIndex];
 
         // Teleporta o fantasma para a posição do waypoint escolhido
-        soundManager.GhostTeleport_Fantasy.Play(); // Toca o som de teleporte
+        GhostTeleport_Fantasy.Play(); // Toca o som de teleporte
         transform.position = targetWaypoint.position;
-        soundManager.GhostWalk_Terror.Play(); // Toca o som de passos do fantasma
+        GhostTeleport_Fantasy.Play(); // Toca o som de passos do fantasma
 
         Debug.Log("FantasyGhost_AI: Se teleportou para o waypoint: " + targetWaypoint.name + " em " + transform.position);
     }
@@ -64,9 +68,9 @@ public class FantasyGhost_AI : GhostAI_Base
     {
         yield return new WaitForSeconds(giggleTimer);
 
-        if (soundManager != null && soundManager.GhostGiggle_Fantasy != null)
+        if (soundManager != null && GhostGiggle_Fantasy != null)
         {
-            soundManager.GhostGiggle_Fantasy.Play();
+            GhostGiggle_Fantasy.Play();
         }
         else
         {

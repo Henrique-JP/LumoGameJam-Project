@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.UI;
 
 public class TypeTextEffect : MonoBehaviour
 {
@@ -11,14 +12,14 @@ public class TypeTextEffect : MonoBehaviour
 
     [TextArea(3, 10)] // Permite múltiplas linhas no inspetor
     public string fullText;
-    private TextMeshProUGUI textComponent;
+    private Text textComponent;
 
     private string currentDisplayedText = "";
     private Coroutine typingCoroutine;
 
     void Awake()
     {
-        textComponent = GetComponent<TextMeshProUGUI>();
+        textComponent = GetComponent<Text>();
         if (textComponent == null)
         {
             Debug.LogError("Componente TextMeshProUGUI não encontrado!");

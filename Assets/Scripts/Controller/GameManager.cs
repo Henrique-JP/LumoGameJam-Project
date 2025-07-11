@@ -13,9 +13,9 @@ public class GameManager : MonoBehaviour
     public Image InteractButtonImage; // Referência à imagem do botão de interação
 
     [Header("UI Elements")]
-    public TextMeshProUGUI timerText;
-    public TextMeshProUGUI ghostCountText;
-    public TextMeshProUGUI introMessageText; // para a mensagem inicial
+    public Text timerText;
+    public Text ghostCountText;
+    public Text introMessageText; // para a mensagem inicial
     public GameObject pauseMenu; // Referência ao painel do menu de pausa
     public GameObject BookInterface; // Referência à interface do livro
 
@@ -33,6 +33,11 @@ public class GameManager : MonoBehaviour
     private bool isPaused = false; // Para rastrear o estado de pausa
 
     public static GameManager Instance { get; private set; }
+
+    [Header("Tutorial")]
+    public Collider2D BlockerCollider; // Referência ao collider que bloqueia o tutorial
+    public Sprite OpenDoorSprite; // Sprite do porta aberta
+    public GameObject []doorObjects; // O objeto da porta que será aberta
 
     void Awake()
     {
@@ -166,6 +171,23 @@ public class GameManager : MonoBehaviour
     void UpdateGhostCountDisplay()
     {
         ghostCountText.text = $"Fantasmas: {capturedGhosts}/{totalGhostsToCapture}";
+
+        if (capturedGhosts == 1)
+        {
+            if (doorObjects != null && doorObjects.Length > 0)
+            {
+                foreach (GameObject door in doorObjects)
+                {
+                    if (door != null) // Boa prática verificar se a porta não é nula
+                    {
+                        //Destroy(door);
+                        BlockerCollider.enabled = false; // Desativa o collider da porta
+                        doorObjects[0].GetComponent<SpriteRenderer>().sprite = OpenDoorSprite; // Altera o sprite da porta para indicar que foi desativada
+                        doorObjects[1].GetComponent<SpriteRenderer>().sprite = OpenDoorSprite;
+                    }
+                }
+            }
+        }
     }
 
     public void GhostCaptured()

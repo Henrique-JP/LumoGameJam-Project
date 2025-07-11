@@ -25,8 +25,8 @@ public class GhostAI_Base : MonoBehaviour
     // --- Referências ---
     protected Transform playerTransform; // Alterado para protected
     protected Rigidbody2D rb; // Alterado para protected
-    public Animator anim; // Referência ao Animator, se houver
-    public SoundManager soundManager; // Referência ao SoundManager, se houver
+    public Animator anim; // Referência ao Animator
+    public SoundManager soundManager; // Referência ao SoundManager
     private SpriteRenderer spriteRenderer; // Adicionado para controle do flipX
 
     // --- Máquina de Estados ---

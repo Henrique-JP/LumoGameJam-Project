@@ -12,7 +12,7 @@ public class PlayerCapture : MonoBehaviour
 
     [Header("Variaveis da UI")]
     public GameObject hintPanel;
-    public TextMeshProUGUI hintText;
+    public Text hintText;
     public Image bookIconImage;
 
     [Header("Configuracoes do livro")]
@@ -31,6 +31,7 @@ public class PlayerCapture : MonoBehaviour
     private GhostCapture currentGhostTarget;
     private BookPickup equippedBook;
     private BookPickup availableBook;
+    private bool FirstPickup = true;
 
 
     private void Awake()
@@ -55,7 +56,8 @@ public class PlayerCapture : MonoBehaviour
 
         if (bookIconImage != null)
         {
-            bookIconImage.enabled = false;
+            //bookIconImage.enabled = false;
+            bookIconImage.gameObject.SetActive(false);
         }
 
         if (GameManager.Instance != null && GameManager.Instance.InteractButtonImage != null)
@@ -146,11 +148,13 @@ public class PlayerCapture : MonoBehaviour
         if (equippedBook != null && equippedBook.bookIcon != null)
         {
             bookIconImage.sprite = equippedBook.bookIcon;
-            bookIconImage.enabled = true;
+            //bookIconImage.enabled = true;
+            bookIconImage.gameObject.SetActive(true);
         }
         else
         {
-            bookIconImage.enabled = false;
+            //bookIconImage.enabled = false;
+            bookIconImage.gameObject.SetActive(false);
         }
     }
 
@@ -168,6 +172,14 @@ public class PlayerCapture : MonoBehaviour
     {
         if (Input.GetKeyDown(interactKey) && availableBook != null)
         {
+            // tentando abrir o livro direto na primeira vez
+            // if (FirstPickup == true)
+            // {
+            //     ShowHintPanel();
+            //     Debug.Log("<color=yellow>-- PISTA EXTRA: Primeira vez pegando um livro! --</color>");
+            //     FirstPickup = false;
+            // }
+
             PickupAndSwapBook();
         }
     }
