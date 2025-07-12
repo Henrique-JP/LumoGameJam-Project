@@ -11,6 +11,7 @@ public class LeverController : MonoBehaviour
     public Sprite LeverDesableSprite;
     public Sprite DoorDesableSprite;
     public GameObject GhostRomance;
+    public Transform romanceGhostExitWaypoint;
 
     [Header("Configurações da Câmera")]
     public CinemachineCamera playerFollowVCam; // A VCam que segue o jogador
@@ -74,6 +75,13 @@ public class LeverController : MonoBehaviour
     {
         isLeverActivated = true;
         Debug.Log("Alavanca ativada!");
+        if (GhostRomance != null && romanceGhostExitWaypoint != null)
+        {
+            if(GhostRomance.TryGetComponent<RomanceGhost_AI>(out var romanceAI))
+            {
+              romanceAI.StartExitSequence(romanceGhostExitWaypoint);
+            }   
+        }
 
         //---TRECHO ADICIONADO PARA O SPAWNER DE FANTASMAS---
         // if (ghostSpawnerToActivate != null)
@@ -118,7 +126,7 @@ public class LeverController : MonoBehaviour
                     doorCollider.enabled = false; // Desativa o collider da porta
                     doorObjects[0].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite; // Altera o sprite da porta para indicar que foi desativada
                     doorObjects[1].GetComponent<SpriteRenderer>().sprite = DoorDesableSprite;
-                    GhostRomance.GetComponent<RomanceGhost_AI>().enabled = true; // Ativa o script do fantasma RomanceGhost_AI
+                    //GhostRomance.GetComponent<RomanceGhost_AI>().enabled = true; // Ativa o script do fantasma RomanceGhost_AI
                 }
             }
         }

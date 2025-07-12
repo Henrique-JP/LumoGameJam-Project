@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))] // Garante que o objeto tenha um SpriteRenderer
+[RequireComponent(typeof(SpriteRenderer))]
 public class RomanceGhost_AI : GhostAI_Base
 {
     [Header("Habilidade Unica: Ciclo Rapido/Atordoado")]
@@ -9,68 +9,92 @@ public class RomanceGhost_AI : GhostAI_Base
     [SerializeField] private float stunDuration = 10f;
 
     [Header("Sprites de Aparencia")]
-    // [Tooltip("O sprite normal do fantasma.")]
-    // public Sprite normalSprite;
     [Tooltip("O sprite para quando o fantasma estiver atordoado.")]
     public Sprite stunnedSprite;
 
-    // --- Variaveis internas ---
-    private SpriteRenderer spriteRenderer; // Referencia ao proprio SpriteRenderer
-    private enum RomanceState { Fast, Stunned }
-    private RomanceState romanceState = RomanceState.Fast;
+    private SpriteRenderer spriteRenderer;
+    // <<< ADICIONADO o estado 'Dormant' >>>
+    private enum RomanceState { Dormant, Exiting, Fast, Stunned }
+    private RomanceState romanceState;
+    private Transform exitWaypoint;
 
     private float stateTimer;
-    public bool IsVulnerable { get; private set; } // Propriedade para ser acessada externamente
+    public bool IsVulnerable { get; private set; }
 
+    // <<< ALTERADO: Agora ele começa no estado 'Dormant' >>>
     protected override void Awake()
     {
-        base.Awake(); // Chama o Awake da base para inicializar rb, playerTransform, etc.
-        
-        // Pega a referencia ao componente SpriteRenderer no próprio objeto
+        base.Awake();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        romanceState = RomanceState.Dormant; // Começa inativo
+        IsVulnerable = false; // Não é vulnerável enquanto dorme
+    }
 
-        stateTimer = fastDuration; // Inicia no estado rápido
-        IsVulnerable = false; // Começa invulnerável
-
-        // Garante que ele comece com o sprite normal
-        // if (normalSprite != null)
-        //     spriteRenderer.sprite = normalSprite;
+    public void StartExitSequence(Transform exitPoint)
+    {
+        // Só executa se estiver inativo, para evitar ser chamado múltiplas vezes
+        if (romanceState == RomanceState.Dormant)
+        {
+            Debug.Log("RomanceGhost_AI: Recebeu ordem de saída! Acordando...");
+            exitWaypoint = exitPoint;
+            romanceState = RomanceState.Exiting;
+        }
     }
 
     void FixedUpdate()
     {
-        // A lógica de evasão de obstáculos ainda pode ser útil, mesmo para perseguir
-        // ou ficar parado. Se o fantasma se move, ele deve evitar paredes.
-        // Se ele não se move, a evasão não terá efeito.
-        
         Vector2 targetVelocity = Vector2.zero;
 
-        if (romanceState == RomanceState.Fast)
+        // <<< LÓGICA DO ESTADO 'Dormant' >>>
+        if (romanceState == RomanceState.Dormant)
         {
-            // Para perseguir: ((Vector2)playerTransform.position - transform.position).normalized
-            // Para fugir (como o original): -((Vector2)playerTransform.position - transform.position).normalized
-            if (playerTransform != null)
+            targetVelocity = Vector2.zero; // Garante que ele fique parado
+        }
+        else if (romanceState == RomanceState.Exiting)
+        {
+            if (exitWaypoint != null)
             {
-                Vector2 directionToPlayer = -((Vector2)playerTransform.position - (Vector2)transform.position).normalized;
-                targetVelocity = directionToPlayer * (moveSpeed * fastSpeedMultiplier);
+                Vector2 directionToExit = ((Vector2)exitWaypoint.position - (Vector2)transform.position).normalized;
+                targetVelocity = directionToExit * (moveSpeed * fastSpeedMultiplier);
+
+                if (Vector2.Distance(transform.position, exitWaypoint.position) < 0.5f)
+                {
+                    Debug.Log("RomanceGhost_AI: Saída concluída. Iniciando ciclo de patrulha.");
+                    romanceState = RomanceState.Fast;
+                    stateTimer = fastDuration;
+                    ChooseRandomWaypoint();
+                }
+            }
+        }
+        else if (romanceState == RomanceState.Fast)
+        {
+            if (waypoints != null && waypoints.Count > 0)
+            {
+                Vector2 directionToWaypoint = (waypoints[currentWaypointIndex].position - transform.position).normalized;
+                targetVelocity = directionToWaypoint * (moveSpeed * fastSpeedMultiplier);
             }
         }
         else // romanceState == RomanceState.Stunned
         {
-            // No estado "Stunned", o fantasma fica parado.
             targetVelocity = Vector2.zero;
         }
 
-        // Aplica a evasão de obstáculos, se houver movimento
         rb.linearVelocity = AvoidObstacles(targetVelocity);
     }
 
     protected override void HandleStateBehavior()
     {
-        // Sem base.HandleStateBehavior() aqui porque
-        // a lógica de Patrulha/Fuga da base não se aplica ao RomanceGhost_AI,
-        // que tem seus próprios estados de Fast/Stunned.
-        
+        // <<< ALTERADO: Não faz nada se estiver inativo >>>
+        if (romanceState == RomanceState.Dormant || romanceState == RomanceState.Exiting) return;
+
+        if (romanceState == RomanceState.Fast)
+        {
+            if (waypoints != null && waypoints.Count > 0 && Vector2.Distance(transform.position, waypoints[currentWaypointIndex].position) < 0.5f)
+            {
+                ChooseRandomWaypoint();
+            }
+        }
+
         stateTimer -= Time.deltaTime;
         if (stateTimer <= 0)
         {
@@ -78,56 +102,33 @@ public class RomanceGhost_AI : GhostAI_Base
         }
     }
 
-    protected override void CheckPlayerDistance()
-    {
-        // O RomanceGhost_AI não transita entre Patrol e Evade com base na proximidade do jogador.
-        // Sua transição de estado é puramente baseada no timer de Fast/Stunned.
-        // Portanto, a lógica de CheckPlayerDistance da base é ignorada.
-    }
-
-
+    // O resto do script permanece igual...
+    protected override void CheckPlayerDistance() { }
     private void SwitchState()
     {
         if (romanceState == RomanceState.Fast)
         {
-            // Entra no estado de Stunned
             romanceState = RomanceState.Stunned;
             stateTimer = stunDuration;
             IsVulnerable = true;
             Debug.Log("RomanceGhost_AI: Entrando no estado ATORDOADO.");
-
-            // TROCA para o sprite de stun
-            if (stunnedSprite != null)
-            {
-                // precisa ser feito de outra forma, pois os sprites de movimento no update sobrescrevem o sprite do atordoado
-                // spriteRenderer.sprite = stunnedSprite;
-            }
-                
         }
-        else // Estava em Stunned
+        else
         {
-            // Entra no estado Rápido
             romanceState = RomanceState.Fast;
             stateTimer = fastDuration;
             IsVulnerable = false;
             Debug.Log("RomanceGhost_AI: Entrando no estado RÁPIDO.");
-
-            // VOLTA para o sprite normal
-            // if (normalSprite != null)
-            //     spriteRenderer.sprite = normalSprite;
+            ChooseRandomWaypoint();
         }
     }
-
     protected override void OnDrawGizmosSelected()
     {
-        base.OnDrawGizmosSelected(); // Desenha as gizmos de detecção do jogador e waypoint da base
-
-        // Adicionar gizmos específicas do RomanceGhost_AI aqui, se houver necessidade
-        // Por exemplo, para visualizar algo relacionado ao seu estado ou habilidades.
+        base.OnDrawGizmosSelected();
         if (romanceState == RomanceState.Stunned)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position, 1f); // Exemplo: um círculo vermelho para indicar atordoado
+            Gizmos.DrawWireSphere(transform.position, 1f);
         }
     }
 }

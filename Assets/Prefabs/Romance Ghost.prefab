@@ -197,6 +197,8 @@ MonoBehaviour:
     m_Bits: 8
   waypoints: []
   waypointDecisionDelay: 0.5
+  anim: {fileID: 0}
+  soundManager: {fileID: 0}
   currentState: 0
   obstacleDetectionDistance: 1.5
   obstacleLayer:
